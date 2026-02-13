@@ -166,7 +166,8 @@ Site administration > Courses > Manage courses and categories
 
 **บันทึกรูปหน้า Category:** 
 ```
- # บันทึกรูปหน้า Category
+<img width="953" height="460" alt="image" src="https://github.com/user-attachments/assets/a1c73b57-4387-42e4-87b8-1aa3e9cd4457" />
+
 ```
 
 ### 3: สร้างและจัดการ Cohorts 
@@ -320,7 +321,8 @@ CSV settings:
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
 ```
- # บันทึกรูปหน้า Cohorts
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d6d84c8c-5e36-4ab8-bd6e-3344a99d83bd" />
+
 ```
 
 ### 4: Bulk User Upload
@@ -380,7 +382,8 @@ Data settings:
 
 **บันทึกรูปหน้า Users (Student):** 
 ```
- # บันทึกรูปหน้า Users
+<img width="1912" height="744" alt="image" src="https://github.com/user-attachments/assets/af09b712-2d75-4b99-95a5-7da0df89b298" />
+
 ```
 
 **Upload Users (Teacher):**
@@ -388,7 +391,7 @@ Data settings:
 
 **บันทึกรูปหน้า Users (Teacher):** 
 ```
- # บันทึกรูปหน้า Users
+<img width="1913" height="837" alt="image" src="https://github.com/user-attachments/assets/48613c7f-9956-476d-b02b-8f9651259a50" />
 ```
 ---
 
@@ -428,7 +431,7 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 
 **บันทึกรูปหน้า Course :** 
 ```
- # บันทึกรูปหน้า Course
+<img width="1916" height="869" alt="image" src="https://github.com/user-attachments/assets/7fd90d7e-7320-45bc-aff5-5e9dea405f4a" />
 ```
 
 #### 5. ตรวจสอบผลลัพธ์
@@ -465,7 +468,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 
 **บันทึกรูปหน้า Enroll ครู:** 
 ```
- # บันทึกรูปหน้า Enroll
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/bc059a00-317c-4dea-bc38-2636c0566745" />
+
 ```
 
 **Enroll นักเรียนผ่าน Cohort sync:**
@@ -476,16 +480,17 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
 ```
- # บันทึกรูปหน้า Enroll
+<img width="1625" height="671" alt="image" src="https://github.com/user-attachments/assets/d161e718-f396-4132-b2a8-81cf9f3425e9" />
+
 ```
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
 ```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
+<img width="1583" height="707" alt="image" src="https://github.com/user-attachments/assets/a27137e3-18e1-47b0-b48b-e93f8228f7b4" />
 ```
 
 #### 6.2 เพิ่ม Activities
-1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
+1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น  (ใช้รหัส Teacher1234@)
 2) ระบบจะให้ทำการเปลี่ยนรหัสผ่าน เนื่องจากเข้าใช้งานครั้งแรก
 3) เลือกเมนู My courses แล้วเลือกรายวิชาที่เป็นเจ้าของ
 4) ในหน้ารายวิชา เลือก + Add an activity or resource
