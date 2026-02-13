@@ -433,7 +433,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 
 **บันทึกรูปหน้า Course :** 
 ```
- # บันทึกรูปหน้า Course
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/255302cb-0c17-4e08-8672-041539bbc4e9" />
+
 ```
 
 #### 5. ตรวจสอบผลลัพธ์
