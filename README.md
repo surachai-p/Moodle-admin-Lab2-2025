@@ -12,7 +12,7 @@
 
 ตั้งค่าภาษาและเขตเวลา (ภาษาไทย, Asia/Bangkok), Password policy, การลงทะเบียน (Manual accounts only), และ Automated backup (02:00 AM, Keep 7 days).
 
-![ตั้งค่าเริ่มต้น](images/screencapture-localhost-cohort-index-php-2026-02-13-10_21_35.png)
+![ตั้งค่าเริ่มต้น](images/Screenshot%202569-02-13%20at%2010.13.32.png)
 
 ---
 
@@ -20,7 +20,7 @@
 
 สร้างโครงสร้าง Category ปีการศึกษา 2568, ภาคเรียนที่ 1, มัธยมศึกษาตอนต้น/ปลาย และชั้น ม.1–ม.6 พร้อม ID number ตามใบงาน
 
-![Category](images/screencapture-localhost-cohort-index-php-2026-02-13-10_21_35.png)
+![Category](images/Screenshot%202569-02-13%20at%2010.13.32.png)
 
 ---
 
@@ -36,7 +36,8 @@
 
 อัปโหลดผู้ใช้จาก users/students_m1-1.csv และ users/teachers_sample.csv ผ่าน Site administration > Users > Accounts > Upload users (Add new only, Force password change: Yes)
 
-![Upload Users](images/screencapture-localhost-cohort-index-php-2026-02-13-10_21_35.png)
+![Upload Users - Student](images/Screenshot%202569-02-13%20at%2010.25.05.png)
+![Upload Users - Teacher](images/Screenshot%202569-02-13%20at%2010.28.05.png)
 
 ---
 
@@ -44,7 +45,7 @@
 
 อัปโหลดรายวิชาจากโฟลเดอร์ courses/ (เช่น courses/courses-secondary-school.csv) ผ่าน Site administration > Courses > Upload courses
 
-![Upload Courses](images/screencapture-localhost-cohort-index-php-2026-02-13-10_21_35.png)
+![Upload Courses](images/Screenshot%202569-02-13%20at%2010.32.26.png)
 
 ---
 
@@ -52,7 +53,8 @@
 
 สร้างหรือเลือกรายวิชา (เช่น MA10101 คณิตศาสตร์พื้นฐาน 1) Enroll ครู และ Enroll นักเรียนผ่าน Cohort sync (Cohort: นักเรียน ม.1/1)
 
-![Enroll](images/screencapture-localhost-cohort-index-php-2026-02-13-10_21_35.png)
+![Enroll ครู](images/Screenshot%202569-02-13%20at%2010.58.02.png)
+![Enroll นักเรียน](images/Screenshot%202569-02-13%20at%2011.02.20.png)
 
 ---
 
@@ -60,7 +62,7 @@
 
 Login เป็น Teacher แล้วเพิ่ม Page (1.1 ชื่อหัวข้อที่ 1), Assignment (งานที่ 1), และ Quiz (แบบทดสอบก่อนเรียน 30 นาที Grade to pass 60%)
 
-![Activities](images/screencapture-localhost-cohort-index-php-2026-02-13-10_21_35.png)
+![Activities](images/Screenshot%202569-02-13%20at%2011.12.38.png)
 
 ---
 
