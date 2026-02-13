@@ -386,6 +386,8 @@ Data settings:
 **บันทึกรูปหน้า Users (Student):** 
 ```
  # บันทึกรูปหน้า Users
+ <img width="1908" height="877" alt="image" src="https://github.com/user-attachments/assets/80c3a20d-e668-4659-a8b2-846c9d25da78" />
+
 ```
 
 **Upload Users (Teacher):**
@@ -394,6 +396,8 @@ Data settings:
 **บันทึกรูปหน้า Users (Teacher):** 
 ```
  # บันทึกรูปหน้า Users
+ <img width="1919" height="687" alt="image" src="https://github.com/user-attachments/assets/6782d668-b08d-4a72-a626-7c1d43806eb6" />
+
 ```
 ---
 
