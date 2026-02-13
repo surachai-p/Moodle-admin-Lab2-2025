@@ -388,9 +388,9 @@ Data settings:
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1915" height="1034" alt="image" src="https://github.com/user-attachments/assets/98ec8a10-8505-4f78-b133-f57158df0d1a" />
+
 ---
 
 ## 3. Upload Courses 
