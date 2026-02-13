@@ -317,10 +317,12 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-<img width="1470" height="741" alt="image" src="https://github.com/user-attachments/assets/a8738c09-42dc-482c-90b7-4299d6059158" />
-<img width="1470" height="922" alt="image" src="https://github.com/user-attachments/assets/e2fbd2c4-83eb-4039-b6d9-c077fee2f13e" />
-<img width="1470" height="737" alt="image" src="https://github.com/user-attachments/assets/07809921-3340-41d1-b1be-a7a99dbb3292" />
-<img width="1470" height="329" alt="image" src="https://github.com/user-attachments/assets/86e187c6-e67f-4725-b8a5-e2bd54d58749" />
+
+<img width="1470" height="921" alt="image" src="https://github.com/user-attachments/assets/c08528af-94d9-4c49-b0c2-6fc19231098f" />
+<img width="1470" height="739" alt="image" src="https://github.com/user-attachments/assets/cbdc4695-40b9-46b7-8df4-ff44f83922c6" />
+<img width="1470" height="738" alt="image" src="https://github.com/user-attachments/assets/b9b60445-bbda-444a-8794-7ee2563646ee" />
+<img width="1470" height="333" alt="image" src="https://github.com/user-attachments/assets/3d4785a1-e0ef-4428-bd64-e9f8b239a9d3" />
+
 
 
 ### 4: Bulk User Upload
