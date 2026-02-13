@@ -496,6 +496,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
 ```
+```
+<img width="878" height="1014" alt="image" src="https://github.com/user-attachments/assets/562b29d9-ccd4-432e-96fb-d2902fdba02f" />
 
 #### 6.2 เพิ่ม Activities
 **1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
