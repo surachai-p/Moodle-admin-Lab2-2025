@@ -513,7 +513,8 @@ Grade to pass: 60%
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
 
-<img width="1906" height="915" alt="image" src="https://github.com/user-attachments/assets/293c9557-9508-446b-a2e4-2d6175ed324d" />
+<img width="1909" height="916" alt="image" src="https://github.com/user-attachments/assets/2496ec3b-b00b-4e8f-af83-05fb2b2cca3c" />
+
 
 
 
