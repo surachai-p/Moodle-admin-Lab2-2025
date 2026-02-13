@@ -173,7 +173,7 @@ Site administration > Courses > Manage courses and categories
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
 
-```csv
+
 name,idnumber,description,contextid,visible
 นักเรียน ม.1/1,STD-M1-1,นักเรียนชั้นมัธยมศึกษาปีที่ 1 ห้อง 1,1,1
 นักเรียน ม.1/2,STD-M1-2,นักเรียนชั้นมัธยมศึกษาปีที่ 1 ห้อง 2,1,1
