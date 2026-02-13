@@ -386,7 +386,8 @@ Data settings:
 ```
  # บันทึกรูปหน้า Users
 ```
-<img width="1839" height="527" alt="image" src="https://github.com/user-attachments/assets/d53882bf-e6c1-4400-abb3-29ce056cef48" />
+<img width="1786" height="758" alt="image" src="https://github.com/user-attachments/assets/21cdd12a-00bf-4574-a54d-32b10b14b845" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
@@ -396,7 +397,8 @@ Data settings:
  # บันทึกรูปหน้า Users
 ```
 ---
-<img width="1606" height="156" alt="image" src="https://github.com/user-attachments/assets/261526b1-2267-4501-84a8-c32b9601bc4e" />
+<img width="1818" height="839" alt="image" src="https://github.com/user-attachments/assets/e2141bcb-1e67-4295-a97e-10491849016c" />
+
 
 ## 3. Upload Courses 
 
