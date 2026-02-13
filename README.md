@@ -8,61 +8,69 @@
 
 ## ส่วนที่ 1: บันทึกผลการทดลอง
 
-### บันทึกที่ 1: ตั้งค่าเริ่มต้นระบบ
+### บันทึกที่ 1: การตั้งค่าเริ่มต้นของระบบ
 
-ตั้งค่าภาษาและเขตเวลา (ภาษาไทย, Asia/Bangkok), Password policy, การลงทะเบียน (Manual accounts only), และ Automated backup (02:00 AM, Keep 7 days).
+ตั้งค่าภาษา เขตเวลา Password Policy การลงทะเบียน และ Automated backup ตามใบงาน
 
-![ตั้งค่าเริ่มต้น](images/Screenshot%202569-02-13%20at%2010.13.32.png)
+![Site Settings](images/Screenshot%202569-02-13%20at%2010.13.32.png)
 
 ---
 
-### บันทึกที่ 2: สร้าง Category
+### บันทึกที่ 2: หน้า Category
 
-สร้างโครงสร้าง Category ปีการศึกษา 2568, ภาคเรียนที่ 1, มัธยมศึกษาตอนต้น/ปลาย และชั้น ม.1–ม.6 พร้อม ID number ตามใบงาน
+Site administration > Courses > Manage courses and categories — โครงสร้างปีการศึกษา 2568, ภาคเรียนที่ 1, มัธยมต้น/ปลาย, ชั้น ม.1–ม.6
 
 ![Category](images/Screenshot%202569-02-13%20at%2010.13.32.png)
 
 ---
 
-### บันทึกที่ 3: Upload Cohorts
+### บันทึกที่ 3: หน้า Cohorts ที่สร้างแล้ว
 
-อัปโหลด Cohorts จากไฟล์ในโฟลเดอร์ cohorts/ (cohorts/cohorts.csv หรือ cohorts-secondary-school.csv) ผ่าน Site administration > Users > Cohorts > Upload cohorts
+Upload cohorts จากไฟล์ `cohorts/cohorts.csv` (หรือ cohorts-secondary-school.csv)
 
 ![Cohorts](images/screencapture-localhost-cohort-index-php-2026-02-13-10_21_35.png)
 
 ---
 
-### บันทึกที่ 4: Upload Users (นักเรียน + ครู)
+### บันทึกที่ 4: ผลการ Upload Users (Student)
 
-อัปโหลดผู้ใช้จาก users/students_m1-1.csv และ users/teachers_sample.csv ผ่าน Site administration > Users > Accounts > Upload users (Add new only, Force password change: Yes)
+Upload จาก `users/students_m1-1.csv`
 
-![Upload Users - Student](images/Screenshot%202569-02-13%20at%2010.25.05.png)
-![Upload Users - Teacher](images/Screenshot%202569-02-13%20at%2010.28.05.png)
-
----
-
-### บันทึกที่ 5: Upload Courses
-
-อัปโหลดรายวิชาจากโฟลเดอร์ courses/ (เช่น courses/courses-secondary-school.csv) ผ่าน Site administration > Courses > Upload courses
-
-![Upload Courses](images/Screenshot%202569-02-13%20at%2010.32.26.png)
+![Upload Users Student](images/Screenshot%202569-02-13%20at%2010.25.05.png)
 
 ---
 
-### บันทึกที่ 6: สร้างรายวิชาตัวอย่างและ Enroll
+### บันทึกที่ 5: ผลการ Upload Users (Teacher)
 
-สร้างหรือเลือกรายวิชา (เช่น MA10101 คณิตศาสตร์พื้นฐาน 1) Enroll ครู และ Enroll นักเรียนผ่าน Cohort sync (Cohort: นักเรียน ม.1/1)
+Upload จาก `users/teachers_sample.csv`
 
-![Enroll ครู](images/Screenshot%202569-02-13%20at%2010.58.02.png)
-![Enroll นักเรียน](images/Screenshot%202569-02-13%20at%2011.02.20.png)
+![Upload Users Teacher](images/Screenshot%202569-02-13%20at%2010.28.05.png)
 
 ---
 
-### บันทึกที่ 7: เพิ่ม Activities
+### บันทึกที่ 6: หน้า Course หลัง Upload courses
 
-Login เป็น Teacher แล้วเพิ่ม Page (1.1 ชื่อหัวข้อที่ 1), Assignment (งานที่ 1), และ Quiz (แบบทดสอบก่อนเรียน 30 นาที Grade to pass 60%)
+เลือกไฟล์จากโฟลเดอร์ `courses/` (เช่น courses-secondary-school.csv)
 
-![Activities](images/Screenshot%202569-02-13%20at%2011.12.38.png)
+![Courses](images/Screenshot%202569-02-13%20at%2010.32.26.png)
+
+---
+
+### บันทึกที่ 7: Enroll ครูและนักเรียน (Cohort sync)
+
+![Enroll](images/Screenshot%202569-02-13%20at%2010.58.02.png)
+
+---
+
+### บันทึกที่ 8: หน้ารายวิชาที่ Enrol User แล้ว
+
+![Course Enrolled](images/Screenshot%202569-02-13%20at%2011.02.20.png)
+
+---
+
+### บันทึกที่ 9: หน้ารายวิชาที่เพิ่ม Activities (Page, Assignment, Quiz)
+
+![Course Activities](images/Screenshot%202569-02-13%20at%2011.12.38.png)
 
 ---
 
@@ -91,3 +99,52 @@ Category ใช้จัดกลุ่มรายวิชา เป็นโ�
 ```
 
 ---
+
+## ไฟล์ประกอบการทดลอง
+
+| ไฟล์ | คำอธิบาย |
+|------|----------|
+| [Moodle-admin-Lab2.md](Moodle-admin-Lab2.md) | ใบงานและขั้นตอนทำ Lab 2 ทั้งหมด |
+| [SETUP.md](SETUP.md) | คู่มือตั้งค่าและใช้งาน Repo นี้ |
+| [cohorts/cohorts.csv](cohorts/cohorts.csv) | Upload Cohorts (มัธยม) ตามข้อ 3.1 |
+| [cohorts/cohorts-secondary-school.csv](cohorts/cohorts-secondary-school.csv) | Upload Cohorts มัธยม |
+| [cohorts/cohorts-vocational.csv](cohorts/cohorts-vocational.csv) | Upload Cohorts อาชีวศึกษา |
+| [courses/courses-secondary-school.csv](courses/courses-secondary-school.csv) | Upload Courses มัธยม |
+| [courses/courses-vocational.csv](courses/courses-vocational.csv) | Upload Courses อาชีวศึกษา |
+| [users/students_m1-1.csv](users/students_m1-1.csv) | Upload Users (นักเรียน ม.1/1) |
+| [users/students_sample.csv](users/students_sample.csv) | ตัวอย่าง CSV นักเรียน |
+| [users/teachers_sample.csv](users/teachers_sample.csv) | Upload Users (ครู) |
+| [csv-templates/](csv-templates/) | ไฟล์ตัวอย่าง CSV ตามที่ใบงานอ้าง |
+| [content/content-page-1.1-MA10101.txt](content/content-page-1.1-MA10101.txt) | เนื้อหาตัวอย่างสำหรับ Page ใน Moodle |
+
+---
+
+## โครงสร้างโฟลเดอร์
+
+```
+Moodle-admin-Lab2-2025/
+├── README.md                       # รายงานผลการทดลอง (ไฟล์นี้)
+├── Moodle-admin-Lab2.md            # ใบงานฉบับเต็ม
+├── SETUP.md                         # คู่มือตั้งค่า
+├── .gitignore
+├── cohorts/                         # ไฟล์ CSV สำหรับ Upload Cohorts
+│   ├── cohorts.csv
+│   ├── cohorts-secondary-school.csv
+│   └── cohorts-vocational.csv
+├── courses/                         # ไฟล์ CSV สำหรับ Upload Courses
+│   ├── courses-secondary-school.csv
+│   └── courses-vocational.csv
+├── users/                           # ไฟล์ CSV สำหรับ Upload Users
+│   ├── students_m1-1.csv
+│   ├── students_sample.csv
+│   └── teachers_sample.csv
+├── csv-templates/                   # ไฟล์ตัวอย่างตามที่ใบงานอ้าง
+│   ├── students_sample.csv
+│   └── teachers_sample.csv
+├── content/                         # เนื้อหาตัวอย่างสำหรับกิจกรรมใน Moodle
+│   └── content-page-1.1-MA10101.txt
+└── images/                          # รูปประกอบและ Screenshots
+    ├── Moodle-role.png
+    ├── screencapture-localhost-cohort-index-php-2026-02-13-10_21_35.png
+    └── (Screenshot 2569-02-13 at *.png)
+```
