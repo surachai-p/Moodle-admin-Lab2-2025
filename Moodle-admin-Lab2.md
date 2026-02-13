@@ -515,7 +515,7 @@ Grade to pass: 60%
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
 
-<img width="1440" height="809" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 15 10 23" src="https://github.com/user-attachments/assets/16950b2b-d5d6-4fc7-afa4-9a6ef3dae9cf" />
+<img width="1440" height="811" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 15 15 32" src="https://github.com/user-attachments/assets/3e66dca0-47df-40c3-91cc-a1fa9c131a0c" />
 
 
 ## คำถามท้ายการทดลอง
