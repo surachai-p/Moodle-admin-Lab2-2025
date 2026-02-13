@@ -165,9 +165,9 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
+![alt text](image.png)
  # บันทึกรูปหน้า Category
-```
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -319,9 +319,10 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
+![alt text](image-1.png)
+![alt text](image-2.png)
  # บันทึกรูปหน้า Cohorts
-```
+
 
 ### 4: Bulk User Upload
 
@@ -379,17 +380,17 @@ Data settings:
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
+![alt text](image-3.png)
  # บันทึกรูปหน้า Users
-```
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
+![alt text](image-4.png)
  # บันทึกรูปหน้า Users
-```
+
 ---
 
 ## 3. Upload Courses 
@@ -427,9 +428,10 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
+![alt text](image-5.png)
+![alt text](image-6.png)
  # บันทึกรูปหน้า Course
-```
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -464,9 +466,10 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
+![alt text](image-7.png)
+![alt text](image-8.png)
  # บันทึกรูปหน้า Enroll
-```
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -475,14 +478,14 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
+![alt text](image-10.png)
  # บันทึกรูปหน้า Enroll
-```
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
+![alt text](image-9.png)
  # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
-```
+
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -512,9 +515,9 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
+![alt text](image-11.png)
  # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+
 
 
 ## คำถามท้ายการทดลอง
