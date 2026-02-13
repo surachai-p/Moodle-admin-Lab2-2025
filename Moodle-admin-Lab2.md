@@ -439,6 +439,7 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 ```
  # บันทึกรูปหน้า Course
 ```
+<img width="879" height="993" alt="image" src="https://github.com/user-attachments/assets/f2e3fd6b-f3b9-4ea3-a84e-bfdde853761e" />
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -476,6 +477,7 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="884" height="1016" alt="image" src="https://github.com/user-attachments/assets/d3812ebe-7e4a-48e5-8c49-bda4c6ac3fde" />
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -487,6 +489,7 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="883" height="1020" alt="image" src="https://github.com/user-attachments/assets/b6c14df0-c385-4ff5-883c-1049da8dca8a" />
 
 ```
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
