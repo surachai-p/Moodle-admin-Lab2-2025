@@ -382,6 +382,8 @@ Data settings:
 
 **บันทึกรูปหน้า Users (Student):** 
 <img width="1470" height="922" alt="image" src="https://github.com/user-attachments/assets/da9f72c2-45fa-4494-be79-26b85791d992" />
+<img width="1470" height="716" alt="image" src="https://github.com/user-attachments/assets/035716a9-0c4e-49e2-87bd-c95d800d4cab" />
+<img width="1467" height="247" alt="image" src="https://github.com/user-attachments/assets/60718bcd-758b-46a1-9209-6ceecbb71b47" />
 
 
 **Upload Users (Teacher):**
@@ -389,6 +391,7 @@ Data settings:
 
 **บันทึกรูปหน้า Users (Teacher):** 
 <img width="1470" height="923" alt="image" src="https://github.com/user-attachments/assets/48237410-af04-4699-94c6-8870855d0379" />
+<img width="1470" height="374" alt="image" src="https://github.com/user-attachments/assets/6bb7774f-0945-489d-8606-aebc01c47b1f" />
 
 ---
 
