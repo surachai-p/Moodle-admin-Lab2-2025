@@ -390,6 +390,8 @@ Data settings:
 ```
  # บันทึกรูปหน้า Users
 ```
+<img width="859" height="888" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 10 31 10" src="https://github.com/user-attachments/assets/fcd27a72-27b2-4c4b-a83c-55faa1005d13" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
@@ -398,6 +400,8 @@ Data settings:
 ```
  # บันทึกรูปหน้า Users
 ```
+<img width="822" height="725" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 10 35 09" src="https://github.com/user-attachments/assets/e71fbb24-75f5-4e76-b5f8-49eb27f0d740" />
+
 ---
 
 ## 3. Upload Courses 
@@ -438,6 +442,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 ```
  # บันทึกรูปหน้า Course
 ```
+<img width="860" height="885" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 10 43 20" src="https://github.com/user-attachments/assets/72deec75-150b-4b14-9d63-77922fffcbd5" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
