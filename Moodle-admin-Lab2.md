@@ -138,6 +138,13 @@ Password: [รหัสที่ตั้งไว้]
 - Keep: 7 days
 - Include user data: Yes
 
+**บันทึกรูปการตั้งค่าเริ่มต้น:**
+
+![ภาษาและเขตเวลา](<Screenshot 2569-02-13 at 11.55.58.png>)
+
+![Password Policy / การลงทะเบียน](<Screenshot 2569-02-13 at 11.56.30.png>)
+
+![Automated backup](<Screenshot 2569-02-13 at 11.57.07.png>)
 
 ### 2: สร้าง Category
 

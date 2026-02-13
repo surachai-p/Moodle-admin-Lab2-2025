@@ -21,7 +21,11 @@
 
 ตั้งค่าภาษา เขตเวลา Password Policy การลงทะเบียน และ Automated backup ตามใบงาน
 
-![Site Settings](images/Screenshot%202569-02-13%20at%2010.13.32.png)
+![ภาษาและเขตเวลา](<Screenshot 2569-02-13 at 11.55.58.png>)
+
+![Password Policy / การลงทะเบียน](<Screenshot 2569-02-13 at 11.56.30.png>)
+
+![Automated backup](<Screenshot 2569-02-13 at 11.57.07.png>)
 
 ---
 
