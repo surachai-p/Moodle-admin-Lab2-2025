@@ -397,6 +397,8 @@ Data settings:
 ```
  # บันทึกรูปหน้า Users
 ```
+<img width="885" height="1013" alt="image" src="https://github.com/user-attachments/assets/1470a144-cd5e-474a-8f81-ad9de62ca686" />
+
 ---
 
 ## 3. Upload Courses 
