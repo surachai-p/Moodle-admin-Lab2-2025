@@ -1,0 +1,6 @@
+username,password,firstname,lastname,email,idnumber,cohort1,department,city,country
+t001,Teacher1234,สมชาติ,มีศักดิ์,somchat@school.ac.th,T001,TCH-TH,ภาษาไทย,กรุงเทพมหานคร,TH
+t002,Teacher1234,วัลลภา,สอนดี,wallapa@school.ac.th,T002,TCH-TH,ภาษาไทย,กรุงเทพมหานคร,TH
+t003,Teacher1234,ประยุทธ,คณิตเก่ง,prayut@school.ac.th,T003,TCH-MA,คณิตศาสตร์,กรุงเทพมหานคร,TH
+t004,Teacher1234,สุภาพ,ตัวเลข,supap@school.ac.th,T004,TCH-MA,คณิตศาสตร์,กรุงเทพมหานคร,TH
+t005,Teacher1234,วิทยา,สังเคราะห์,witaya@school.ac.th,T005,TCH-SC,วิทยาศาสตร์,กรุงเทพมหานคร,TH
