@@ -320,7 +320,7 @@ CSV settings:
 <img width="1470" height="741" alt="image" src="https://github.com/user-attachments/assets/a8738c09-42dc-482c-90b7-4299d6059158" />
 <img width="1470" height="922" alt="image" src="https://github.com/user-attachments/assets/e2fbd2c4-83eb-4039-b6d9-c077fee2f13e" />
 <img width="1470" height="737" alt="image" src="https://github.com/user-attachments/assets/07809921-3340-41d1-b1be-a7a99dbb3292" />
-<img width="1470" height="338" alt="image" src="https://github.com/user-attachments/assets/22ff4d4a-f3ca-43e3-ac1d-8803932c0b3b" />
+<img width="1470" height="329" alt="image" src="https://github.com/user-attachments/assets/86e187c6-e67f-4725-b8a5-e2bd54d58749" />
 
 
 ### 4: Bulk User Upload
