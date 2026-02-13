@@ -165,9 +165,8 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+<img width="1897" height="818" alt="image" src="https://github.com/user-attachments/assets/b3f2770d-2df2-4c69-a6cc-ff7df849ab85" />
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -319,9 +318,10 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+<img width="1853" height="684" alt="image" src="https://github.com/user-attachments/assets/59b25422-a4e6-4532-8dba-530d802b17c8" />
+<img width="1894" height="867" alt="image" src="https://github.com/user-attachments/assets/50603457-ffa5-4f2d-b3c5-6d7aa5ed2f10" />
+<img width="1895" height="876" alt="image" src="https://github.com/user-attachments/assets/f65371bb-a085-45c5-a31c-242fcd216088" />
+
 
 ### 4: Bulk User Upload
 
@@ -379,17 +379,15 @@ Data settings:
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1900" height="862" alt="image" src="https://github.com/user-attachments/assets/7572834b-3854-45b5-bd7e-dc2645237077" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1894" height="868" alt="image" src="https://github.com/user-attachments/assets/81e16476-d2ec-4065-9e26-f29b4cb791d4" />
+
 ---
 
 ## 3. Upload Courses 
@@ -427,9 +425,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+<img width="1890" height="803" alt="image" src="https://github.com/user-attachments/assets/418a590e-fca0-4a92-a6b4-85f5887b1a86" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
