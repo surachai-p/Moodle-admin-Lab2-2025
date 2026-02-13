@@ -381,17 +381,15 @@ Data settings:
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1470" height="922" alt="image" src="https://github.com/user-attachments/assets/da9f72c2-45fa-4494-be79-26b85791d992" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1470" height="923" alt="image" src="https://github.com/user-attachments/assets/48237410-af04-4699-94c6-8870855d0379" />
+
 ---
 
 ## 3. Upload Courses 
