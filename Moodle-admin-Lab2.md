@@ -515,6 +515,7 @@ Grade to pass: 60%
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+
 **Category**  
 - ใช้จัดหมวดหมู่รายวิชา (Course structure)  
 - เป็นโครงสร้างแบบลำดับชั้น (Parent / Child)  
