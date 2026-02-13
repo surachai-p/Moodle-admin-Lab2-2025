@@ -469,13 +469,10 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
 
-```
-**บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
+<img width="1880" height="862" alt="image" src="https://github.com/user-attachments/assets/d8907cbe-d661-4daa-b473-726ed9521a72" />
+
+
  # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
 ```
 
