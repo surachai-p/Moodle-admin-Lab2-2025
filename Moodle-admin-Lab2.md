@@ -513,9 +513,9 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+
+<img width="1919" height="1036" alt="image" src="https://github.com/user-attachments/assets/0efeeb8f-e63e-4824-befd-3856665bca88" />
+
 
 
 ## คำถามท้ายการทดลอง
