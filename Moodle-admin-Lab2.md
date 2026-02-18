@@ -164,9 +164,10 @@ Site administration > Courses > Manage courses and categories
     └── ชั้น ม.6 (ID: AY2568-S1-M6)
 ```
 
-**บันทึกรูปหน้า Category:** 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4ef55fc3-eb8b-4050-bd16-116c5989050f" />
+
 ```
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1df8e7b9-9404-4583-b1a0-14f88648c5e0" />
+**บันทึกรูปหน้า Category:** 
 
 ```
 
