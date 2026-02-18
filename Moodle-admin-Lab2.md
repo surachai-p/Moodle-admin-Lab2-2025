@@ -319,7 +319,13 @@ CSV settings:
 - เลือก CSV delimiter: Comma
 - เลือก Encoding: UTF-8
 
-**บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c3826f8d-395f-4b0e-94fa-7ea12a91ad7d" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f5f0ae59-cc7c-4a5a-9870-e3b697275b70" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7828d974-56c2-4580-9fa6-ccaba82f9971" />
+
+
 ```
  # บันทึกรูปหน้า Cohorts
 ```
