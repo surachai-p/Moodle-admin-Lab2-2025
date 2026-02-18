@@ -165,10 +165,10 @@ Site administration > Courses > Manage courses and categories
     └── ชั้น ม.6 (ID: AY2568-S1-M6)
 ```
 
-**บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+
+
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 13 31 59" src="https://github.com/user-attachments/assets/b6f5dfbb-9f35-4838-b58e-f0e2c8fe6e51" />
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +320,9 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 14 59 04" src="https://github.com/user-attachments/assets/d24f9cf8-ba34-4da8-8d4e-e8bf67153db4" />
+
 
 ### 4: Bulk User Upload
 
@@ -374,17 +374,16 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 15 01 19" src="https://github.com/user-attachments/assets/50d3c957-69bd-4f22-8ddb-8e8ec99ca0b4" />
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 15 01 46" src="https://github.com/user-attachments/assets/385081ef-439f-4de4-ba83-0c30ebd4e705" />
+
 ---
 
 ## 3. Upload Courses 
@@ -422,9 +421,9 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 15 12 25" src="https://github.com/user-attachments/assets/74db59dc-d502-4e11-9cab-00a8a3543166" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -459,9 +458,9 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 23 18 16" src="https://github.com/user-attachments/assets/5bfc6e23-d28f-4b09-a167-94498c654c1c" />
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -470,14 +469,14 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 23 20 38" src="https://github.com/user-attachments/assets/ac7c91a7-bb89-4af8-8313-9870978c9ea2" />
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
-```
+
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-02-18 เวลา 13 32 22" src="https://github.com/user-attachments/assets/d4cbfd55-4b1e-4bbe-805c-0567a0aeabb1" />
+
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -507,16 +506,34 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-02-18 เวลา 13 24 33" src="https://github.com/user-attachments/assets/771e9ab7-e17c-434a-b4ff-04c0aba8e851" />
+
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+Category เน้นจัด “รายวิชา”
+Cohort เน้นจัด “ผู้ใช้”
 
 **2.** เหตุใดควรใช้ Cohort sync 
+✅ เพิ่ม/ลบนักเรียนอัตโนมัติ
+เมื่อเพิ่มผู้เรียนเข้า Cohort → ระบบ enroll เข้า Course ให้เอง
+✅ ลดความผิดพลาด
+ไม่ต้อง enroll ทีละคน
+✅ ประหยัดเวลา
+เหมาะกับโรงเรียนหรือมหาวิทยาลัยที่มีนักเรียนจำนวนมาก
+✅ จัดการง่ายเมื่อมีการย้ายห้อง/ถอนตัว
+แค่แก้ไขที่ Cohort เดียว
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
-
+1. จัดตามโครงสร้างองค์กร
+เช่น ปีการศึกษา → ภาคเรียน → ระดับชั้น → ห้องเรียน
+2. ไม่ซับซ้อนเกินไป
+- ไม่ควรมีหลายชั้นเกินความจำเป็น
+- ทำให้ค้นหายากและจัดการลำบาก
+3. ตั้งชื่อให้เป็นมาตรฐานเดียวกัน
+เช่น TH21101-M101, MA21101-M101
+4. แยกสิทธิ์ตาม Category
+สามารถกำหนด Role หรือสิทธิ์ผู้ดูแลตามหมวดหมู่ได้
