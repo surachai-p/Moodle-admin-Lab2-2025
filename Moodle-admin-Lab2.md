@@ -166,7 +166,11 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
+<img width="939" height="817" alt="image" src="https://github.com/user-attachments/assets/74bca3d5-42b3-4afb-adb6-bc0378bed373" />
+
 ```
+
+
  # บันทึกรูปหน้า Category
 ```
 
@@ -320,7 +324,10 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
+<img width="1531" height="840" alt="image" src="https://github.com/user-attachments/assets/707b433b-134a-435d-8afa-5abff1a3ab07" />
+
 ```
+
  # บันทึกรูปหน้า Cohorts
 ```
 
@@ -374,6 +381,9 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
+<img width="1545" height="525" alt="image" src="https://github.com/user-attachments/assets/de584b6e-56f7-4143-9be8-baca08eab265" />
+
+
 ```
  # บันทึกรูปหน้า Users
 ```
@@ -382,6 +392,9 @@ Default values
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
+<img width="1530" height="395" alt="image" src="https://github.com/user-attachments/assets/fc2657e5-27c8-4cc8-a68b-3ab4c42a2940" />
+
+
 ```
  # บันทึกรูปหน้า Users
 ```
@@ -422,6 +435,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
+<img width="1525" height="823" alt="image" src="https://github.com/user-attachments/assets/2a03eabf-7242-4def-927d-011cfbbba085" />
+
 ```
  # บันทึกรูปหน้า Course
 ```
@@ -458,7 +473,11 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **4) เลือก Participants กดเลือกที่ปุ่ม Enrol Users
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
-**บันทึกรูปหน้า Enroll ครู:** 
+**บันทึกรูปหน้า Enroll ครู:**
+<img width="709" height="397" alt="image" src="https://github.com/user-attachments/assets/0d877970-f8bf-4ef3-bfc6-51f3f3e12836" />
+<img width="1547" height="584" alt="image" src="https://github.com/user-attachments/assets/7df53fd9-ec08-41fa-b720-b10ae6ccd9b9" />
+
+
 ```
  # บันทึกรูปหน้า Enroll
 ```
@@ -470,11 +489,13 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
+<img width="618" height="361" alt="image" src="https://github.com/user-attachments/assets/41695ae6-ada2-4742-b8c9-c66e72fcfae5" />
 ```
  # บันทึกรูปหน้า Enroll
 ```
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
+<img width="1538" height="732" alt="image" src="https://github.com/user-attachments/assets/6455957b-44ad-41dd-aaf8-08a8278a3a65" />
 ```
  # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
 ```
@@ -506,7 +527,9 @@ Time limit: 30 นาที
 Grade to pass: 60%
 ```
 
-**บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
+**บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:**
+<img width="1912" height="909" alt="image" src="https://github.com/user-attachments/assets/a9cb8062-df38-4fb7-9978-03989a33682f" />
+
 ```
  # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
 ```
@@ -515,8 +538,45 @@ Grade to pass: 60%
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+```
+Category (ประเภทวิชา)
+เป้าหมาย: ใช้จัดระเบียบ "ตัวรายวิชา"
 
-**2.** เหตุใดควรใช้ Cohort sync 
+สิ่งที่อยู่ในกลุ่ม: คือ Course หรือบทเรียนต่างๆ
+
+การใช้งาน: สร้างโครงสร้างเหมือนโฟลเดอร์ เช่น คณะวิศวกรรมศาสตร์ > ภาควิชาไฟฟ้า > ปีการศึกษา 2569
+
+ประโยชน์: ช่วยให้หน้าเว็บเป็นระเบียบ ผู้เรียนคลิกเข้าไปหาชุดวิชาที่ต้องการได้ง่าย ไม่กระจัดกระจาย
+
+Cohort (กลุ่มผู้เรียน)
+เป้าหมาย: ใช้จัดกลุ่ม "ตัวบุคคล"
+
+สิ่งที่อยู่ในกลุ่ม: คือ User หรือนักศึกษา
+
+การใช้งาน: รวบรวมคนที่มีลักษณะเหมือนกันไว้ด้วยกัน เช่น "นักศึกษาแพทย์ ชั้นปีที่ 1" หรือ "พนักงานทดลองงานชุดที่ 5"
+
+ประโยชน์: ใช้สำหรับจัดการคนจำนวนมากในครั้งเดียว เช่น สั่งให้คนทั้งกลุ่มนี้เข้าเรียนวิชา A, B และ C พร้อมกันทันที
+```
+
+**2.** เหตุใดควรใช้ Cohort sync
+```
+Cohort sync คือวิธีการลงทะเบียน (Enrolment) ที่ทรงพลังที่สุดวิธีหนึ่งในระบบ LMS ด้วยเหตุผลหลักดังนี้ครับ:
+
+ลดภาระงาน (Automation): แทนที่คุณจะต้องดึงชื่อนักศึกษาเข้าวิชาทีละคน (Manual Enrolment) คุณเพียงแค่ดึง "Cohort" เข้าไปครั้งเดียว ทุกคนที่อยู่ในกลุ่มนั้นจะเข้าเรียนได้ทันที
+
+การอัปเดตแบบ Real-time: หากมีการเพิ่มสมาชิกใหม่เข้าไปใน Cohort ภายหลัง ระบบจะดึงชื่อคนนั้นเข้าวิชาเรียนที่มีการ Sync ไว้โดยอัตโนมัติ ไม่ต้องตามไปเพิ่มในทุกวิชา
+
+การบริหารจัดการง่าย: เมื่อจบปีการศึกษา หรือต้องการถอนชื่อคนกลุ่มนี้ออก แค่เอาออกจาก Cohort ในระดับระบบ (System level) ชื่อก็จะหายออกจากทุกวิชาที่เกี่ยวข้องทันที``
+```
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
+```
+Hierarchy (ลำดับชั้น): ไม่ควรลึกเกิน 3-4 ชั้น เพราะจะทำให้ผู้ใช้งานหาลำดับวิชายาก (เช่น คณะ > ภาควิชา > ระดับปริญญา)
+
+Standard Naming: ใช้ชื่อที่เป็นสากลและระบุปีการศึกษาให้ชัดเจน เพื่อป้องกันความสับสนระหว่างวิชาเก่าและวิชาใหม่ (เช่น ปีการศึกษา 2568 > ภาคเรียนที่ 1)
+
+Separation of Sandboxes: ควรแยก Category พิเศษสำหรับ "พื้นที่ทดลองสอน" (Sandbox) หรือวิชาที่กำลังพัฒนา ออกจากวิชาที่เปิดสอนจริง เพื่อไม่ให้ผู้เรียนเห็นวิชาที่ยังไม่เสร็จ
+
+Permissions Management: ตั้งค่าสิทธิ์ในระดับ Category เพื่อให้หัวหน้าภาควิชาหรือแอดมินเฉพาะจุดสามารถจัดการวิชาในหมวดของตนเองได้ โดยไม่ต้องมายุ่งกับหมวดอื่น
+```
 
