@@ -321,9 +321,8 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+<img width="1906" height="1066" alt="image" src="https://github.com/user-attachments/assets/35c76988-9465-4d1c-8211-8ebc9cc78718" />
+
 
 ### 4: Bulk User Upload
 
@@ -375,17 +374,15 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1850" height="1067" alt="image" src="https://github.com/user-attachments/assets/1e551585-7e8e-4db5-9b3a-5ad0240b89f6" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1907" height="1068" alt="image" src="https://github.com/user-attachments/assets/8d5c866d-903f-44ea-8498-6470a43e3c48" />
+
 ---
 
 ## 3. Upload Courses 
@@ -423,9 +420,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+<img width="1907" height="1068" alt="image" src="https://github.com/user-attachments/assets/e0bec997-2e0a-45bf-883d-33ac719dbdbe" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -460,9 +456,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1907" height="1068" alt="image" src="https://github.com/user-attachments/assets/93788d9b-3c08-4715-9377-0350a466f936" />
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -471,9 +466,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1906" height="1068" alt="image" src="https://github.com/user-attachments/assets/6615788d-aa0a-4a76-9df7-bbc236ea743e" />
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
 ```
