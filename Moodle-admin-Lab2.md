@@ -382,7 +382,8 @@ Default values
 
 **บันทึกรูปหน้า Users (Student):** 
 ```
- # บันทึกรูปหน้า Users
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/661b763c-589b-4d77-8740-7f4bb74e80e4" />
+
 ```
 
 **Upload Users (Teacher):**
@@ -390,7 +391,8 @@ Default values
 
 **บันทึกรูปหน้า Users (Teacher):** 
 ```
- # บันทึกรูปหน้า Users
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/90d9bf25-4620-4e5a-a0f1-254b7ac06a88" />
+
 ```
 ---
 
