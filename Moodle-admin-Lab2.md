@@ -166,9 +166,8 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+<img width="858" height="765" alt="image" src="https://github.com/user-attachments/assets/b8038d07-eb77-4f43-8d74-de791af48822" />
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +319,8 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+<img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/e51c38fa-8085-47b9-b013-ace3061631b7" />
+
 
 ### 4: Bulk User Upload
 
@@ -374,17 +372,17 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/3cd78861-4676-4893-ae68-c504c3ebb938" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1919" height="807" alt="image" src="https://github.com/user-attachments/assets/96679a79-9e12-4b43-b27b-44bd0ed225eb" />
+<img width="1820" height="749" alt="image" src="https://github.com/user-attachments/assets/19fe41d3-d87a-48c7-b58a-c1dd5828cb03" />
+
+
 ---
 
 ## 3. Upload Courses 
@@ -422,9 +420,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+<img width="1901" height="874" alt="image" src="https://github.com/user-attachments/assets/f5982e4b-b363-49de-8236-1e327e605eb0" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -459,9 +456,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/24197e05-0ac6-4787-aa24-bf3f1dd7b11f" />
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -470,14 +466,12 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/d79ecb9e-9e2e-4fd9-b330-45f838fa536b" />
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
-```
+<img width="1919" height="904" alt="image" src="https://github.com/user-attachments/assets/bd68c9d2-19e1-40e2-aa63-292c2782ebb7" />
+
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -507,16 +501,34 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+<img width="710" height="807" alt="image" src="https://github.com/user-attachments/assets/5df0437e-5436-456b-a368-c761d2a51ee3" />
+
 
 
 ## คำถามท้ายการทดลอง
 
-**1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+**1.** อธิบายความแตกต่างระหว่าง Category และ Cohort
 
-**2.** เหตุใดควรใช้ Cohort sync 
+ตอบ
+  - Category: คือการจัดกลุ่ม "รายวิชา" (เหมือนโฟลเดอร์เก็บไฟล์วิชา) เพื่อให้ระบบเป็นระเบียบตามโครงสร้างหลักสูตร
+
+  - Cohort: คือการจัดกลุ่ม "ผู้ใช้งาน/นักเรียน" (เหมือนการจัดห้องเรียน ม.1/1 หรือ ปวช.1/ช่างยนต์) เพื่อให้จัดการคนจำนวนมากได้พร้อมกัน
+
+**2.** เหตุใดควรใช้ Cohort sync
+
+ตอบ
+  - ลดงานซ้ำซ้อน: ไม่ต้องเสียเวลาไล่เพิ่มชื่อนักเรียนเข้าวิชาทีละคน
+
+  - Auto-Update: เมื่อเพิ่ม/ลบคนใน Cohort ระบบจะดึงคนเข้าหรือออกจากวิชาให้โดยอัตโนมัติทันที
+
+  - ลดข้อผิดพลาด: ป้องกันการดึงชื่อนักเรียนเข้าผิดกลุ่มเรียน (Section)
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
+
+ตอบ
+  - Hierarchy ที่ชัดเจน: แบ่งตาม ปีการศึกษา > ภาคเรียน > ระดับชั้น (ปวช./ปวส.) > สาขา เพื่อให้หาง่ายและไม่ซับซ้อนเกินไป
+
+  - ใช้ ID Number: ต้องมีรหัส Category ID เสมอ เพื่อความสะดวกในการดึงข้อมูลรายงานและการอัปโหลดไฟล์
+
+  - ยึดหลักสูตรจริง: จัดโครงสร้างตามหมวดวิชาในเล่มหลักสูตร (เช่น สมรรถนะแกนกลาง/วิชาชีพ) เพื่อให้ตรงกับการประกันคุณภาพการศึกษา
 
