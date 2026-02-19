@@ -169,6 +169,7 @@ Site administration > Courses > Manage courses and categories
 ```
  # บันทึกรูปหน้า Category
 ```
+<img width="1919" height="852" alt="image" src="https://github.com/user-attachments/assets/5ea7f5be-e3a5-430f-8828-a23e801a13ff" />
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -323,6 +324,14 @@ CSV settings:
 ```
  # บันทึกรูปหน้า Cohorts
 ```
+<img width="1919" height="849" alt="image" src="https://github.com/user-attachments/assets/63d274e3-e97a-4d93-a678-f94bc2d15b30" />
+
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/7053c331-dc01-4c18-9a77-823fb00ee5c4" />
+
+<img width="1916" height="725" alt="image" src="https://github.com/user-attachments/assets/04ba0ccc-7699-4eca-a027-dd0a80100b76" />
+
+<img width="1919" height="763" alt="image" src="https://github.com/user-attachments/assets/235e75ef-3e80-4330-bf00-3521cd91bf27" />
+
 
 ### 4: Bulk User Upload
 
@@ -377,6 +386,9 @@ Default values
 ```
  # บันทึกรูปหน้า Users
 ```
+<img width="1916" height="867" alt="image" src="https://github.com/user-attachments/assets/4a93dfdc-626f-490b-abcb-68fde0155d00" />
+
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/6ee0f153-48da-4f73-9998-dd4d9da415a3" />
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
@@ -385,6 +397,8 @@ Default values
 ```
  # บันทึกรูปหน้า Users
 ```
+<img width="1914" height="881" alt="image" src="https://github.com/user-attachments/assets/45d2880a-fe43-49bc-b726-fef4ec0f7a65" />
+
 ---
 
 ## 3. Upload Courses 
@@ -425,6 +439,9 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 ```
  # บันทึกรูปหน้า Course
 ```
+<img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/89649fb8-ffb6-415b-babe-4b3c0faa927f" />
+
+<img width="1918" height="854" alt="image" src="https://github.com/user-attachments/assets/ed1cda12-f727-469c-b4f0-528cf14b4948" />
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -462,6 +479,7 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="1911" height="866" alt="image" src="https://github.com/user-attachments/assets/99ebc057-d385-4c37-a5aa-a77bf850e3a8" />
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -473,11 +491,13 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="1911" height="839" alt="image" src="https://github.com/user-attachments/assets/c5eea1cc-d663-4e0b-ba27-abbb7e7b7915" />
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
 ```
  # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
 ```
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/9e39d571-d9aa-43f2-8cbf-5d3790b3130a" />
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -510,13 +530,30 @@ Grade to pass: 60%
 ```
  # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
 ```
+<img width="1917" height="850" alt="image" src="https://github.com/user-attachments/assets/5a6b5e35-a13b-4099-a2fd-dc249c639e40" />
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
-
+```
+- Category และ Cohort เป็นแนวคิดที่ใช้ในการจัดกลุ่มข้อมูลเหมือนกัน แต่มีหลักการแตกต่างกันอย่างชัดเจน
+- Category คือ การจัดกลุ่มข้อมูลตามคุณลักษณะหรือประเภทของข้อมูล เช่น เพศ อายุ ประเภทสินค้า หรือแผนการสมัครใช้งาน ซึ่งเป็นการแบ่งกลุ่มแบบคงที่ตามโครงสร้างที่กำหนดไว้ล่วงหน้า จุดประสงค์หลักคือเพื่อให้ข้อมูลเป็นระเบียบและง่ายต่อการจัดการ
+- Cohort คือ การจัดกลุ่มข้อมูลตามช่วงเวลา หรือเหตุการณ์ที่เกิดขึ้น เช่น ผู้ใช้ที่สมัครสมาชิกในเดือนเดียวกัน หรือกลุ่มลูกค้าที่ซื้อสินค้าครั้งแรกในช่วงเวลาเดียวกัน โดย Cohort มักใช้เพื่อวิเคราะห์พฤติกรรมหรือแนวโน้มของกลุ่มนั้น ๆ ในระยะยาว
+```
 **2.** เหตุใดควรใช้ Cohort sync 
+```
+- เชื่อมต่อและอัปเดตอัตโนมัติ: ส่งข้อมูลกลุ่มผู้ใช้ไปยังระบบอื่นได้ทันทีโดยไม่ต้องทำแบบ Manual
+- วิเคราะห์พฤติกรรมแม่นยำ: ช่วยให้ติดตามความเคลื่อนไหวของผู้ใช้ตามช่วงเวลาได้อย่างต่อเนื่อง (เช่น ดูอัตราผู้ใช้ที่กลับมา หรือผู้ที่เลิกใช้งาน)
+- เพิ่มประสิทธิภาพกลยุทธ์: นำข้อมูลที่อัปเดตตลอดเวลาไปใช้วางแผนหรือทำการตลาดต่อยอดได้อย่างรวดเร็ว
+```
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
-
+```
+การออกแบบโครงสร้าง Category ที่ดีควรคำนึงถึงความชัดเจนและความเป็นระบบ โดยมีแนวทางปฏิบัติที่เหมาะสม ดังนี้
+- ควรตั้งชื่อหมวดหมู่ให้ชัดเจนและไม่ซ้ำซ้อน เพื่อป้องกันความสับสน
+- ควรจัดลำดับชั้น (Hierarchy) อย่างเหมาะสม ไม่ลึกหรือซับซ้อนเกินไป
+- ควรออกแบบให้สามารถรองรับการขยายในอนาคตได้ (Scalable)
+- ควรใช้รูปแบบการตั้งชื่อ (Naming Convention) ที่สอดคล้องกันทั้งระบบ
+- ควรแยก Category ออกจาก Tag อย่างชัดเจน โดย Category ใช้เป็นโครงสร้างหลัก และ Tag ใช้เสริมรายละเอียดเพิ่มเติม
+```
