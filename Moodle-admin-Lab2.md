@@ -166,9 +166,10 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+<img width="927" height="868" alt="image" src="https://github.com/user-attachments/assets/87df1d7a-ef6e-402b-a257-7f3a3d18c3e4" />
+<img width="711" height="537" alt="image" src="https://github.com/user-attachments/assets/75970155-615f-4c02-9084-327f36a4eeb7" />
+
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +321,8 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+<img width="1906" height="1066" alt="image" src="https://github.com/user-attachments/assets/35c76988-9465-4d1c-8211-8ebc9cc78718" />
+
 
 ### 4: Bulk User Upload
 
@@ -374,17 +374,15 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1850" height="1067" alt="image" src="https://github.com/user-attachments/assets/1e551585-7e8e-4db5-9b3a-5ad0240b89f6" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1907" height="1068" alt="image" src="https://github.com/user-attachments/assets/8d5c866d-903f-44ea-8498-6470a43e3c48" />
+
 ---
 
 ## 3. Upload Courses 
@@ -422,9 +420,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+<img width="1907" height="1068" alt="image" src="https://github.com/user-attachments/assets/e0bec997-2e0a-45bf-883d-33ac719dbdbe" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -459,9 +456,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1907" height="1068" alt="image" src="https://github.com/user-attachments/assets/93788d9b-3c08-4715-9377-0350a466f936" />
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -470,9 +466,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1906" height="1068" alt="image" src="https://github.com/user-attachments/assets/6615788d-aa0a-4a76-9df7-bbc236ea743e" />
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
 ```
@@ -507,16 +502,18 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+<img width="999" height="484" alt="image" src="https://github.com/user-attachments/assets/59a432ca-bd53-4164-9343-4f7d2c37128c" />
+
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+Category = กลุ่มตามคุณสมบัติ (เช่น อายุ, เพศ, ประเทศ)
+Cohort = กลุ่มตามเวลา/เหตุการณ์ (เช่น เดือนสมัคร, วันซื้อครั้งแรก
 
 **2.** เหตุใดควรใช้ Cohort sync 
+Cohort sync → ใช้ติดตาม retention/churn ตามเวลา, ลด bias จากค่าเฉลี่ย, วัดผลแคมเปญ/ฟีเจอร์ใหม่
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
-
+Best practices Category → ชัดเจนไม่ซ้อนทับ, สอดคล้องเป้าหมายธุรกิจ, ไม่เยอะเกินไป, อัปเดตตามข้อมูลจริง, ใช้คู่กับ cohort เพื่อ insight ลึกขึ้น
