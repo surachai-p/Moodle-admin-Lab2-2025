@@ -534,16 +534,25 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
+``
  # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
+<img width="1914" height="921" alt="image" src="https://github.com/user-attachments/assets/420167ec-b2ab-47a8-9fdf-89667e0e51d4" />
+<img width="1885" height="906" alt="image" src="https://github.com/user-attachments/assets/1ce92c14-4777-4f0a-8e8f-e8ea07efb6d9" />
+
 ```
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
-
+ใช้สำหรับจัดกลุ่ม “รายวิชา (Course)” ให้เป็นหมวดหมู่
+คือกลุ่ม “ผู้ใช้ (Users)” ในระบบ
 **2.** เหตุใดควรใช้ Cohort sync 
-
+ไม่ต้อง enrol นักเรียนทีละคน
+ลดความผิดพลาด
+ถ้าเพิ่มนักเรียนใหม่เข้าห้อง แค่เพิ่มใน Cohort
+ระบบจะใส่เข้า course ให้ทันที
+จัดการสิทธิ์ได้เป็นระบบ
 **3.** Best practices สำหรับ Category structure คือแบบใด
+โครงสร้างควรเรียบง่าย ชัดเจน และขยายได้ในอนาคต
 
