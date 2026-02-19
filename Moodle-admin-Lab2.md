@@ -380,6 +380,8 @@ Default values
 
 **บันทึกรูปหน้า Users (Teacher):** 
 <img width="1919" height="807" alt="image" src="https://github.com/user-attachments/assets/96679a79-9e12-4b43-b27b-44bd0ed225eb" />
+<img width="1820" height="749" alt="image" src="https://github.com/user-attachments/assets/19fe41d3-d87a-48c7-b58a-c1dd5828cb03" />
+
 
 ---
 
