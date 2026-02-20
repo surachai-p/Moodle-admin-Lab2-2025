@@ -384,9 +384,9 @@ Default values
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/44e79370-6b0c-4e2d-bc57-d5157ad05a9a" />
-```
+
 ---
 
 ## 3. Upload Courses 
@@ -424,9 +424,9 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/50ffc5a6-0953-41d4-9153-07565f02a86d" />
-```
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
