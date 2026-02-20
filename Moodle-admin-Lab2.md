@@ -1,4 +1,4 @@
-# ใบงานการทดลองที่ 2: การบริหารจัดการ Moodle LMS สำหรับผู้ดูแลระบบ
+<img width="1877" height="1079" alt="image" src="https://github.com/user-attachments/assets/6ed59944-3cfe-426a-bdc9-b0607a1fba6d" /># ใบงานการทดลองที่ 2: การบริหารจัดการ Moodle LMS สำหรับผู้ดูแลระบบ
 
 **วัตถุประสงค์:** เพื่อให้นักศึกษาสามารถ
 1. อธิบายแนวทางการวางแผนโครงสร้างระบบ Moodle สำหรับสถานศึกษาได้
@@ -166,9 +166,11 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+
+<img width="1896" height="867" alt="image" src="https://github.com/user-attachments/assets/63967444-aa73-4f61-a33e-ffc92a354e57" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a96d9975-bc6f-4cc3-9c77-1cc869b02171" />
+
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +322,9 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+
+<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/d0061461-fa27-4fea-928b-9cdeeeb86656" />
+
 
 ### 4: Bulk User Upload
 
@@ -374,17 +376,17 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1877" height="1079" alt="image" src="https://github.com/user-attachments/assets/92109c9f-3dff-44e5-922f-e2a3a4b7a1c5" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/44e79370-6b0c-4e2d-bc57-d5157ad05a9a" />
+
 ---
 
 ## 3. Upload Courses 
@@ -422,9 +424,9 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/50ffc5a6-0953-41d4-9153-07565f02a86d" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -459,9 +461,9 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+
+<img width="1853" height="897" alt="image" src="https://github.com/user-attachments/assets/c48234af-6adc-428c-831e-d6b11061bafe" />
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -470,14 +472,12 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1876" height="892" alt="image" src="https://github.com/user-attachments/assets/756774c1-2fe7-4d95-b493-13b2cf2c41de" />
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
-```
+<img width="1876" height="892" alt="image" src="https://github.com/user-attachments/assets/de4f142d-902a-4b52-9427-7ee8622d63f3" />
+
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -507,16 +507,19 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+
+<img width="1890" height="1007" alt="image" src="https://github.com/user-attachments/assets/6cb86836-7143-4db8-9465-807e0e569460" />
+
+
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+Category ใช้จัดโครงสร้างและหมวดหมู่ของรายวิชา ส่วน Cohort ใช้จัดกลุ่มผู้ใช้ (เช่น นักเรียนหรือครู) ในระดับระบบ
 
 **2.** เหตุใดควรใช้ Cohort sync 
+Cohort sync ช่วยลงทะเบียนผู้เรียนเข้า Course แบบอัตโนมัติ ลดเวลาและความผิดพลาดจากการเพิ่มผู้ใช้ทีละคน
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
-
+ควรจัดโครงสร้างตาม ปีการศึกษา → ภาคเรียน → ระดับชั้น และตั้งชื่อให้เป็นมาตรฐานสม่ำเสมอ
