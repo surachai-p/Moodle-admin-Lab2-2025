@@ -166,9 +166,8 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+
+<img width="969" height="911" alt="image" src="https://github.com/user-attachments/assets/57b272a6-2c3b-4381-939d-92213a5a8fae" />
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +319,15 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+
+<img width="1901" height="913" alt="image" src="https://github.com/user-attachments/assets/59b8835a-3560-42c2-be9e-93c59281f933" />
+
+<img width="1901" height="752" alt="image" src="https://github.com/user-attachments/assets/4d69beba-ec04-4c9e-8cc0-36d31925ca91" />
+
+<img width="1900" height="312" alt="image" src="https://github.com/user-attachments/assets/0885f602-104a-4342-bccf-503cea719cf9" />
+
+<img width="1896" height="846" alt="image" src="https://github.com/user-attachments/assets/777bcd99-efc3-43ba-b24e-327ff5c604a5" />
+
 
 ### 4: Bulk User Upload
 
@@ -374,17 +379,16 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1901" height="910" alt="image" src="https://github.com/user-attachments/assets/ac338e21-8574-44fc-9fb7-a1fefcf2b2d0" />
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/7dfc184b-55e9-49d7-a576-766fb864161a" />
+
 ---
 
 ## 3. Upload Courses 
@@ -422,9 +426,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+
+<img width="1898" height="904" alt="image" src="https://github.com/user-attachments/assets/511ec5aa-8736-46c2-983f-019f9b0fb4b7" />
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -459,9 +462,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+
+<img width="1540" height="297" alt="image" src="https://github.com/user-attachments/assets/0c2f1c27-13ea-4b8b-bf6e-e088d2a96a86" />
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -470,14 +472,12 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+
+<img width="1598" height="657" alt="image" src="https://github.com/user-attachments/assets/3199d775-28f4-4b17-afc9-742faadb6eb3" />
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
-```
+
+<img width="1578" height="846" alt="image" src="https://github.com/user-attachments/assets/a23e6f8a-1014-450d-bdbf-12b1322df386" />
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -507,16 +507,28 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
 
+<img width="550" height="874" alt="image" src="https://github.com/user-attachments/assets/531fa9ab-3a4b-4d2c-80c4-1a2f0f5559c0" />
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
 
+ *Category (หมวดหมู่รายวิชา): คือการจัดกลุ่มหรือจำแนกประเภทของ "รายวิชา" ให้เป็นระเบียบตามโครงสร้างของสถานศึกษา ตัวอย่างเช่น การแบ่งตามปีการศึกษา, ภาคเรียน, หรือระดับชั้น (ม.1, ม.2) เพื่อให้ผู้ใช้งานค้นหาวิชาได้ง่าย*
+
+ *Cohort (กลุ่มผู้ใช้): คือการจัดกลุ่ม "ผู้ใช้งาน" (เช่น นักเรียนหรือครู) ในระดับระบบ (Site-wide) เพื่อให้สามารถจัดการผู้ใช้จำนวนมากพร้อมกันได้ เช่น การจัดกลุ่มนักเรียนตามห้อง (ม.1/1) หรือกลุ่มครูตามกลุ่มสาระการเรียนรู้*
+
 **2.** เหตุใดควรใช้ Cohort sync 
 
+ *ประสิทธิภาพและความรวดเร็ว: ช่วยประหยัดเวลาในการดึงนักเรียนเข้าเรียน (Enroll) โดยสามารถดึงนักเรียนเข้าสู่รายวิชาได้ยกห้อง (เช่น 40-50 คน) ในครั้งเดียว แทนการดึงทีละคน*
+
+ *การอัปเดตข้อมูลอัตโนมัติ: เมื่อมีการเพิ่มหรือลบชื่อสมาชิกออกจาก Cohort ในระดับระบบ ระบบจะทำการเพิ่มหรือลดรายชื่อนักเรียนในทุกรายวิชาที่เชื่อมต่อกับ Cohort นั้นให้โดยอัตโนมัติ ช่วยลดความผิดพลาดในการจัดการรายชื่อนักเรียน*
+
 **3.** Best practices สำหรับ Category structure คือแบบใด
+
+ *โครงสร้างแบบลำดับชั้น (Hierarchy): ควรจัดลำดับจากหน่วยใหญ่ไปหาหน่วยย่อย เช่น ปีการศึกษา > ภาคเรียน > ระดับชั้น > กลุ่มสาระ/รายวิชา เพื่อความเป็นระเบียบและไม่ซ้อนชั้นมากเกินไปจนหาลำบาก*
+
+ *การใช้ ID Number: ควรมีการกำหนด ID Number ที่เป็นระบบและสื่อความหมาย (เช่น AY2568-S1-M1) เพื่อช่วยในการอ้างอิงข้อมูลและการจัดการผ่านไฟล์ CSV ได้อย่างถูกต้องแม่นยำ*
+
+ *ความยืดหยุ่นและการจัดเก็บ (Archiving): การแยก Category ตามปีการศึกษาจะช่วยให้เมื่อจบปีการศึกษานั้นๆ แล้ว สามารถจัดการซ่อนหรือสำรองข้อมูล (Backup) ทั้งปีการศึกษาได้ง่ายโดยไม่กระทบกับข้อมูลของปีถัดไป*
 
