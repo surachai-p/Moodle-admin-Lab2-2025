@@ -166,9 +166,9 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+
+ ![alt text](image.png)
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +320,7 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+![alt text](image-1.png)
 
 ### 4: Bulk User Upload
 
@@ -374,17 +372,13 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+![alt text](image-2.png)
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+![alt text](image-3.png)
 ---
 
 ## 3. Upload Courses 
@@ -421,10 +415,7 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 ---
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
-**บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+![alt text](image-4.png)
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -459,9 +450,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+![alt text](image-5.png)
+![alt text](image-6.png)
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -470,14 +460,13 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+![alt text](image-7.png)
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
-```
+
+[alt text](image-8.png)
+
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -507,16 +496,15 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
-
+![alt text](image-9.png)
+![alt text](image-10.png)
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
-
+Category คือการจัดหมวดหมู่รายวิชาหรือโครงสร้างในระบบ
+Cohort คือกลุ่มผู้ใช้ที่ใช้จัดการและลงทะเบียนเรียนเป็นกลุ่ม
 **2.** เหตุใดควรใช้ Cohort sync 
-
+เพราะช่วยลงทะเบียนผู้เรียนเข้ารายวิชาอัตโนมัติ ลดงานซ้ำซ้อน และอัปเดตรายชื่อได้ทันทีเมื่อมีการเปลี่ยนแปลง
 **3.** Best practices สำหรับ Category structure คือแบบใด
-
+ควรจัดโครงสร้างให้เป็นลำดับ เข้าใจง่าย ใช้ชื่อชัดเจน และสอดคล้องกับโครงสร้างการเรียนจริง
