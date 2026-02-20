@@ -439,6 +439,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 ```
  # บันทึกรูปหน้า Course
 ```
+<img width="1366" height="637" alt="image" src="https://github.com/user-attachments/assets/80e25392-e76e-4c29-b313-d1aa700f8a3a" />
+<img width="1366" height="555" alt="image" src="https://github.com/user-attachments/assets/b4556de2-c51f-44db-83fc-ff242e3d6bad" />
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -476,6 +478,7 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="1366" height="578" alt="image" src="https://github.com/user-attachments/assets/a58c0148-34dd-41ea-aa0f-43771bb9d10c" />
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -487,11 +490,13 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="1353" height="732" alt="image" src="https://github.com/user-attachments/assets/ddbd0f8b-edff-43db-abf0-578129df01a4" />
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
 ```
  # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
 ```
+<img width="1366" height="645" alt="image" src="https://github.com/user-attachments/assets/7fa7741b-eb63-463b-8888-f9cee07d376e" />
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -524,13 +529,36 @@ Grade to pass: 60%
 ```
  # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
 ```
+<img width="1360" height="647" alt="image" src="https://github.com/user-attachments/assets/fae55067-1365-41bb-a507-3ff66b6078cf" />
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+Category (หมวดหมู่รายวิชา)
+-ใช้สำหรับจัดกลุ่ม รายวิชา (Courses)
+-มีโครงสร้างแบบลำดับชั้น (Parent–Child)
+-ช่วยจัดระเบียบรายวิชาให้เป็นระบบ เช่น แยกตามคณะ / ระดับชั้น / ปีการศึกษา
+-มีผลต่อสิทธิ์การเข้าถึง (Permission / Role assignment)
 
+Cohort (กลุ่มผู้ใช้)
+-ใช้สำหรับจัดกลุ่ม ผู้เรียนหรือผู้ใช้ (Users)
+-ไม่เกี่ยวกับโครงสร้างรายวิชา
+-ใช้สำหรับลงทะเบียนผู้เรียนเข้าหลายวิชาพร้อมกัน
+-มักใช้ร่วมกับ Cohort sync เพื่อจัดการผู้เรียนจำนวนมาก
 **2.** เหตุใดควรใช้ Cohort sync 
-
+1.ช่วยลงทะเบียนผู้เรียนจำนวนมากได้รวดเร็ว
+2.ลดความผิดพลาดจากการเพิ่มผู้เรียนทีละคน
+3.เมื่อมีการเพิ่ม/ลบสมาชิกใน Cohort ระบบจะอัปเดตในรายวิชาอัตโนมัติ
+4.หมาะกับการจัดการนักเรียนตามรุ่น / ห้อง / ภาคเรียน
+5.ช่วยประหยัดเวลาในการบริหารจัดการระบบ
 **3.** Best practices สำหรับ Category structure คือแบบใด
-
+- จัดตามโครงสร้างองค์กร เช่น
+คณะ → สาขา → ปีการศึกษา
+ระดับชั้น → ภาคเรียน
+- ไม่ควรสร้างลึกเกินไป (ไม่ควรเกิน 3–4 ระดับ)
+- ตั้งชื่อให้ชัดเจนและสม่ำเสมอ เช่น
+2026_Sem1
+Year1_ComputerScience
+- แยก Category สำหรับ Sandbox หรือรายวิชาทดลอง
+- วางแผนโครงสร้างก่อนสร้างจริง เพื่อลดการย้ายข้อมูลภายหลัง
