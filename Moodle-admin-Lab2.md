@@ -166,9 +166,8 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d62707c9-5102-4bf4-81ec-da5a310d17dc" />
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +319,8 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d770da70-495e-4ca1-a6e3-9908a672c181" />
+
 
 ### 4: Bulk User Upload
 
@@ -374,17 +372,15 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/830fd824-d5ae-40da-b503-508800a66bf1" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6cb7ceee-7701-457f-b4dc-ea64915a54f2" />
+
 ---
 
 ## 3. Upload Courses 
@@ -422,9 +418,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4039315c-3a86-437a-8595-47ebe916331f" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -459,9 +454,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ecc9a76d-3ba0-45e7-bbe9-06a70a94c917" />
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -470,14 +464,12 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e293a91e-b57c-49f7-9bc2-04fc6764d4ec" />
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5bfba024-b84c-458c-afe4-fd4d66ad7319" />
+
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -507,16 +499,28 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ed359cb5-7534-4269-83df-71bb1c8abde6" />
+
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+>
+- Category คือการแบ่งกลุ่มตาม "คุณลักษณะที่เหมือนกัน" ส่วน Cohort คือการแบ่งกลุ่มตาม "ช่วงเวลาหรือเหตุการณ์ที่เกิดขึ้นร่วมกัน"
+เพื่อติดตามพฤติกรรมที่เปลี่ยนไปตามเวลาครับ
 
 **2.** เหตุใดควรใช้ Cohort sync 
+>
+1. Automation (ความรวดเร็ว): เมื่อคุณเพิ่มชื่อนักเรียนเข้าไปใน Cohort "ม.1/2568" ระบบจะดึงนักเรียนคนนั้นเข้าเรียนในทุกวิชาที่ผูกกับ Cohort นี้ไว้อัตโนมัติทันที ไม่ต้องตามแอดทีละวิชา
+
+2. Easy Management (จัดการง่าย): เวลาเด็กย้ายห้องหรือลาออก คุณแค่เอาชื่อออกจาก Cohort ที่เดียว ชื่อของเขาจะหายออกจากทุกรายวิชาที่เกี่ยวข้อง ช่วยลดความเสี่ยงเรื่องความปลอดภัยของข้อมูล
+
+3. Scalability (รองรับคนจำนวนมาก): หากคุณมีนักเรียน 500 คน การใช้ Cohort Sync จะช่วยให้การจัดการ Enrollment เสร็จสิ้นภายในไม่กี่คลิก
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
-
+> 
+1. ยึดตามโครงสร้างองค์กรหรือหลักสูตร ควรแบ่งตามปีการศึกษาหรือระดับชั้นก่อน แล้วจึงย่อยเป็นกลุ่มสาระเรียน
+2. ไม่ควรซ้อนลึกจนเกินไป พยายามอย่าให้เกิน 3-4 ชั้น เพราะจะทำให้ครูหรือผู้ดูแลระบบหาที่วางวิชาได้ยาก
+3. ใช้การตั้งชื่อที่สื่อสารชัดเจน หลีกเลี่ยงชื่อที่คลุมเครือ
+4. แยกหมวดหมู่ "ต้นแบบ" ควรมี Category เฉพาะสำหรับเก็บวิชาที่เป็นต้นแบบเพื่อให้ครูคัดลอกไปใช้ในเทอมถัดๆไปได้ โดยไม่ปนกับวิชาที่มีนักเรียนเรียนอยู่จริง
