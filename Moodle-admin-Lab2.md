@@ -382,9 +382,8 @@ Default values
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+<img width="1463" height="944" alt="image" src="https://github.com/user-attachments/assets/fae22d13-d901-4585-9eb9-0658ca9b9b83" />
+
 ---
 
 ## 3. Upload Courses 
