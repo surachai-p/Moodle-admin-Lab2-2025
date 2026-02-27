@@ -326,6 +326,11 @@ CSV settings:
 ```
  # บันทึกรูปหน้า Cohorts
 ```
+<img width="1919" height="997" alt="image" src="https://github.com/user-attachments/assets/f528a554-740f-41f8-b800-201c92f74498" />
+<img width="1919" height="998" alt="image" src="https://github.com/user-attachments/assets/c6fd0b04-b1f4-42cb-81de-1bb6b5512ccc" />
+
+
+
 
 ### 4: Bulk User Upload
 
