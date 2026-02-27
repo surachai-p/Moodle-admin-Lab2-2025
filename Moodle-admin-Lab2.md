@@ -437,6 +437,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 ```
  # บันทึกรูปหน้า Course
 ```
+<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/6e9a5c49-b730-41d5-89a5-2ea5a39f7705" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -474,6 +476,9 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="1914" height="996" alt="image" src="https://github.com/user-attachments/assets/e11bab31-617c-45af-a5fc-91797549da1e" />
+
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -485,11 +490,13 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="1914" height="996" alt="image" src="https://github.com/user-attachments/assets/e11bab31-617c-45af-a5fc-91797549da1e" />
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
 ```
  # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
 ```
+<img width="1914" height="996" alt="image" src="https://github.com/user-attachments/assets/e11bab31-617c-45af-a5fc-91797549da1e" />
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -527,8 +534,12 @@ Grade to pass: 60%
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+ANS Category = โครงสร้างจัดหมวดหมู่ “รายวิชา”
+    Cohort = กลุ่ม “ผู้เรียนหรือผู้ใช้”
 
 **2.** เหตุใดควรใช้ Cohort sync 
+ANS เพิ่มนักเรียนเข้าคอร์สทั้งกลุ่มอัตโนมัติ ลดงานเพิ่มรายคน แก้ไขครั้งเดียวมีผลทั้งกลุ่ม เหมาะกับโรงเรียน/มหาวิทยาลัยที่มีหลายห้อง
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
+ANS จัดตามระดับชั้น → ภาคเรียน → รายวิชา เช่น ม.1 → เทอม 1 → คณิตศาสตร์
 
