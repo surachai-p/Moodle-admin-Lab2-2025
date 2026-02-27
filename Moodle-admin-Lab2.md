@@ -168,6 +168,8 @@ Site administration > Courses > Manage courses and categories
 **บันทึกรูปหน้า Category:** 
 ```
  # บันทึกรูปหน้า Category
+![Uploading image.png…]()
+
 ```
 
 ### 3: สร้างและจัดการ Cohorts 
