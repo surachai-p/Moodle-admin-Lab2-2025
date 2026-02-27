@@ -385,6 +385,8 @@ Default values
 ```
  # บันทึกรูปหน้า Users
 ```
+<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/df18e566-4a7d-42fe-8eef-1810938982e8" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
@@ -393,6 +395,8 @@ Default values
 ```
  # บันทึกรูปหน้า Users
 ```
+<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/f7d6391d-8c48-4c68-abb8-4ed4b814b1ba" />
+
 ---
 
 ## 3. Upload Courses 
