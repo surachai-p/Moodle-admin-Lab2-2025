@@ -169,6 +169,8 @@ Site administration > Courses > Manage courses and categories
 ```
  # บันทึกรูปหน้า Category
 ```
+<img width="1440" height="900" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 13 41 46" src="https://github.com/user-attachments/assets/e67b46d3-bab2-48f4-827a-bd6bbaf8e9a7" />
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -323,6 +325,8 @@ CSV settings:
 ```
  # บันทึกรูปหน้า Cohorts
 ```
+<img width="1440" height="900" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 13 51 20" src="https://github.com/user-attachments/assets/1476c8d5-c338-4d3b-a820-8a3a13a344ae" />
+
 
 ### 4: Bulk User Upload
 
@@ -377,6 +381,8 @@ Default values
 ```
  # บันทึกรูปหน้า Users
 ```
+<img width="1440" height="900" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 14 00 23" src="https://github.com/user-attachments/assets/07418e67-66bc-4f84-a706-be2fd513737a" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
@@ -385,6 +391,8 @@ Default values
 ```
  # บันทึกรูปหน้า Users
 ```
+<img width="1440" height="900" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 14 02 28" src="https://github.com/user-attachments/assets/e595bbd3-5ff0-494d-9153-c46b5b140250" />
+
 ---
 
 ## 3. Upload Courses 
@@ -425,6 +433,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 ```
  # บันทึกรูปหน้า Course
 ```
+<img width="1440" height="900" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 14 15 57" src="https://github.com/user-attachments/assets/7440c4fc-ed54-4821-882c-ad57c3b8687c" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -462,6 +472,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="1440" height="900" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 14 28 59" src="https://github.com/user-attachments/assets/2731d90e-0c22-4f2c-90ab-1ada99a4b6cc" />
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -473,11 +485,15 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 ```
  # บันทึกรูปหน้า Enroll
 ```
+<img width="1440" height="900" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 14 30 12" src="https://github.com/user-attachments/assets/a9ce33a6-99e2-46ba-a14d-956912cebd91" />
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
 ```
  # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
 ```
+<img width="1440" height="900" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 14 34 05" src="https://github.com/user-attachments/assets/632a2f23-aa1f-4a97-bc94-a458a0e937b0" />
+
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -510,13 +526,22 @@ Grade to pass: 60%
 ```
  # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
 ```
+<img width="1440" height="900" alt="ภาพถ่ายหน้าจอ 2569-02-13 เวลา 15 19 33" src="https://github.com/user-attachments/assets/5f99c18e-5cbb-44df-b010-a3677cdbe213" />
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+* **Category (หมวดหมู่):** ใช้สำหรับจัดกลุ่ม **"รายวิชา" (Courses)** ในระบบเปรียบเสมือนโฟลเดอร์เก็บไฟล์ เพื่อให้โครงสร้างของเว็บเป็นระเบียบ เช่น จัดหมวดหมู่ตามคณะ, ภาควิชา, หรือปีการศึกษา
+* **Cohort (กลุ่มผู้เรียน):** ใช้สำหรับจัดกลุ่ม **"ผู้ใช้งาน" (Users)** ในระดับระบบ (Site-wide) หรือระดับ Category เพื่อรวมกลุ่มนักศึกษาที่มีลักษณะเดียวกัน เช่น กลุ่ม "นักศึกษาปี 2" หรือ "Section 1" ทำให้ง่ายต่อการจัดการผู้ใช้จำนวนมาก
 
 **2.** เหตุใดควรใช้ Cohort sync 
+* **Mass Enrollment:** สามารถดึงนักศึกษาทั้งกลุ่ม (Cohort) เข้าไปลงทะเบียนในรายวิชา (Course) ได้พร้อมกันในครั้งเดียว ไม่ต้องมานั่ง Add ทีละคน
+* **Auto-Update:** หากมีการเพิ่มหรือลบรายชื่อนักศึกษาออกจาก Cohort ตัวระบบจะทำการ Update สิทธิ์การเข้าถึงในรายวิชาที่ Sync ไว้ให้โดยอัตโนมัติ ช่วยลดข้อผิดพลาด (Human Error) และประหยัดเวลาของ Admin/ผู้สอนลงไปได้มาก
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
+* **จำกัดความลึก (Don't go too deep):** โครงสร้างไม่ควรซ้อนกันลึกเกิน 3-4 ระดับ (เช่น คณะ > ภาควิชา > ปีการศึกษา/เทอม) เพราะจะทำให้ผู้ใช้ต้องคลิกหลายครั้งกว่าจะเจอวิชาที่ต้องการ
 
+* **สะท้อนโครงสร้างจริงขององค์กร:** ตั้งชื่อหมวดหมู่ให้สอดคล้องกับโครงสร้างของสถาบัน เพื่อให้ผู้ใช้ใหม่ (ทั้งอาจารย์และนักศึกษา) สามารถเดาทางไปหาวิชาของตัวเองได้ง่าย
+* **มีการจัดการ Archive (คลังวิชาเก่า):** ควรมีการแบ่ง Category ตามปีการศึกษาและภาคเรียนให้ชัดเจน และควรมีหมวดหมู่สำหรับเก็บ "รายวิชาที่ปิดสอนแล้ว" แยกต่างหาก เพื่อไม่ให้ปะปนกับรายวิชาที่กำลังเปิดสอนอยู่ในปัจจุบัน
+* **ตั้งค่า Permission ให้เหมาะสม:** โครงสร้างที่ดีจะช่วยให้ Admin สามารถกำหนดสิทธิ์ (Assign roles) ให้ผู้ดูแลระดับ Category (เช่น หัวหน้าภาควิชา) จัดการเฉพาะส่วนของตนเองได้ง่ายขึ้น
