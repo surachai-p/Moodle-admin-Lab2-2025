@@ -166,8 +166,10 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
+
+
+<img width="984" height="974" alt="image" src="https://github.com/user-attachments/assets/dd9ed9d0-6f22-4671-ab14-e26ef09a8f5c" />
+
 ```
 
 ### 3: สร้างและจัดการ Cohorts 
@@ -320,8 +322,9 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
+
+ <img width="1901" height="974" alt="image" src="https://github.com/user-attachments/assets/3367c80c-bc94-4ab9-8f3c-ff2f0a365d51" />
+
 ```
 
 ### 4: Bulk User Upload
@@ -375,7 +378,8 @@ Default values
 
 **บันทึกรูปหน้า Users (Student):** 
 ```
- # บันทึกรูปหน้า Users
+<img width="1919" height="976" alt="image" src="https://github.com/user-attachments/assets/c41a69ee-aa53-443b-8e22-38d8e8998383" />
+
 ```
 
 **Upload Users (Teacher):**
@@ -383,7 +387,8 @@ Default values
 
 **บันทึกรูปหน้า Users (Teacher):** 
 ```
- # บันทึกรูปหน้า Users
+<img width="1903" height="972" alt="image" src="https://github.com/user-attachments/assets/f96bc95d-4d68-4ec8-a0c8-6accd380130c" />
+
 ```
 ---
 
@@ -423,7 +428,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 
 **บันทึกรูปหน้า Course :** 
 ```
- # บันทึกรูปหน้า Course
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/255302cb-0c17-4e08-8672-041539bbc4e9" />
+
 ```
 
 #### 5. ตรวจสอบผลลัพธ์
@@ -460,7 +466,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 
 **บันทึกรูปหน้า Enroll ครู:** 
 ```
- # บันทึกรูปหน้า Enroll
+<img width="1034" height="625" alt="image" src="https://github.com/user-attachments/assets/c39d424c-d841-4162-a050-985fb60ec4f9" />
+
 ```
 
 **Enroll นักเรียนผ่าน Cohort sync:**
@@ -471,12 +478,14 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
 ```
- # บันทึกรูปหน้า Enroll
+<img width="1043" height="641" alt="image" src="https://github.com/user-attachments/assets/a547bed1-978d-41df-a746-b85e4fe7112d" />
+
 ```
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
 ```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
+<img width="1901" height="969" alt="image" src="https://github.com/user-attachments/assets/a572bcf7-9b5a-48cf-a660-683d43694ab9" />
+
 ```
 
 #### 6.2 เพิ่ม Activities
@@ -508,15 +517,40 @@ Grade to pass: 60%
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
 ```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
+<img width="1902" height="972" alt="image" src="https://github.com/user-attachments/assets/72b66532-1eae-4734-9817-b05687009ef5" />
+
 ```
 
 
 ## คำถามท้ายการทดลอง
 
-**1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+**1.** อธิบายความแตกต่างระหว่าง Category และ Cohort
+Category (หมวดหมู่รายวิชา)
 
-**2.** เหตุใดควรใช้ Cohort sync 
+ใช้สำหรับจัดกลุ่ม รายวิชา (Course) ในระบบ LMS
+
+เป็นโครงสร้างแบบลำดับชั้น (Hierarchy)
+
+ช่วยจัดระเบียบวิชาและกำหนดสิทธิ์การเข้าถึง
+
+ตัวอย่างปวช.ปวช.1 ปวช.2
+
+**2.** เหตุใดควรใช้ Cohort sync
+เหตุผลที่ควรใช้:
+
+1.ลดการเพิ่มนักเรียนทีละคน
+
+2.ป้องกันความผิดพลาดในการลงทะเบียน
+
+3.สะดวกเมื่อมีนักเรียนย้ายเข้า–ออก
+
+4.เหมาะกับรายวิชาที่เปิดทุกปีการศึกษา
+
+5.บริหารจัดการง่ายในระดับผู้ดูแลระบบ
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
+1. เรียงตามโครงสร้างสถานศึกษา
+2. ไม่ซับซ้อนเกินไป (ไม่เกิน 3–4 ชั้น)
+3. แยกตามปีการศึกษา (ถ้าจำเป็น)
+4. ตั้งชื่อให้ชัดเจนและเป็นมาตรฐานเดียวกัน
 
