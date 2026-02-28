@@ -166,6 +166,9 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
+
+<img width="1918" height="969" alt="image" src="https://github.com/user-attachments/assets/a089c3ab-0377-4065-9160-66b5636e30b5" />
+
 ```
  # บันทึกรูปหน้า Category
 ```
@@ -320,6 +323,9 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
+
+<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/5ae027bf-0a85-49a5-8880-6ef9ed3a8ff3" />
+
 ```
  # บันทึกรูปหน้า Cohorts
 ```
@@ -374,6 +380,9 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
+
+<img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/b882adc3-7c53-4fa5-b1cd-413375077472" />
+
 ```
  # บันทึกรูปหน้า Users
 ```
@@ -382,6 +391,9 @@ Default values
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
+
+<img width="1919" height="920" alt="image" src="https://github.com/user-attachments/assets/8f260f13-4ba5-4f09-96db-dbfb052dee4a" />
+
 ```
  # บันทึกรูปหน้า Users
 ```
@@ -421,7 +433,10 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 ---
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
-**บันทึกรูปหน้า Course :** 
+**บันทึกรูปหน้า Course :**
+
+<img width="1915" height="921" alt="image" src="https://github.com/user-attachments/assets/cc1d35ee-4afd-4943-bf00-b391cb10533a" />
+
 ```
  # บันทึกรูปหน้า Course
 ```
@@ -458,7 +473,10 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **4) เลือก Participants กดเลือกที่ปุ่ม Enrol Users
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
-**บันทึกรูปหน้า Enroll ครู:** 
+**บันทึกรูปหน้า Enroll ครู:**
+
+<img width="1909" height="912" alt="image" src="https://github.com/user-attachments/assets/1ca73e91-118e-47fa-ac93-00023ff89279" />
+
 ```
  # บันทึกรูปหน้า Enroll
 ```
@@ -470,6 +488,9 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
+
+<img width="1909" height="914" alt="image" src="https://github.com/user-attachments/assets/4149e4a5-d742-44ea-9c90-e32590882384" />
+
 ```
  # บันทึกรูปหน้า Enroll
 ```
@@ -506,7 +527,10 @@ Time limit: 30 นาที
 Grade to pass: 60%
 ```
 
-**บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
+**บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:**
+
+<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/70bd087e-4e8f-46f4-a474-b7c4ab18fedf" />
+
 ```
  # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
 ```
@@ -514,9 +538,25 @@ Grade to pass: 60%
 
 ## คำถามท้ายการทดลอง
 
-**1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+**1.** อธิบายความแตกต่างระหว่าง Category และ Cohort
 
-**2.** เหตุใดควรใช้ Cohort sync 
+- Category (หมวดหมู่หลักสูตร): คือการจัดกลุ่มโครงสร้างในฝั่ง "วิชา" (Course) เพื่อความเป็นระเบียบเรียบร้อยของระบบ ช่วยให้ผู้เรียนและผู้สอนสามารถค้นหารายวิชาได้ง่ายตามประเภทวิชา คณะ หรือภาควิชา
+- Cohort (กลุ่มผู้ใช้): คือการจัดกลุ่มในฝั่ง "ผู้ใช้งาน" (User) โดยการนำผู้ใช้ที่มีลักษณะร่วมกันมาจัดรวมเป็นกลุ่มเดียวในระดับระบบ (Site-wide) เช่น นักศึกษาชั้นปีที่ 1, กลุ่มพนักงานทดลองงาน หรือนักศึกษาคณะนิติศาสตร์ เพื่อความสะดวกในการบริหารจัดการรายชื่อจำนวนมาก
+
+**2.** เหตุใดควรใช้ Cohort sync
+
+- ลดขั้นตอนการทำงาน (Automation): สามารถนำผู้ใช้ทั้งกลุ่มเข้าสู่รายวิชาได้ในครั้งเดียว แทนการเพิ่มรายชื่อทีละคน (Manual Enrolment)
+
+- การอัปเดตข้อมูลแบบเรียลไทม์: หากมีการเพิ่มหรือลบสมาชิกออกจาก Cohort ระบบจะทำการเพิ่มหรือลบชื่อผู้นั้นออกจากรายวิชาที่เชื่อมโยงไว้โดยอัตโนมัติ ช่วยลดความผิดพลาดในการจัดการข้อมูล
+
+- การจัดการข้ามรายวิชา: เหมาะสำหรับกรณีที่กลุ่มผู้เรียนกลุ่มเดียวจำเป็นต้องเข้าเรียนในหลายๆ รายวิชาพร้อมกัน
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
 
+- ความลึกที่เหมาะสม (Shallow Hierarchy): ไม่ควรสร้างหมวดหมู่ย่อยซ้อนกันเกิน 3 ชั้น เพื่อป้องกันความสับสนและช่วยให้การเข้าถึงวิชาทำได้รวดเร็ว
+
+- การจัดลำดับที่ชัดเจน (Logical Organization): จัดกลุ่มตามความเป็นจริงขององค์กร เช่น แยกตามปีการศึกษา, ตามคณะ หรือตามแผนกฝึกอบรม
+
+- มาตรฐานการตั้งชื่อ (Naming Convention): ควรใช้รหัสวิชานำหน้าชื่อวิชาเสมอ เพื่อความเป็นระเบียบและการค้นหาที่แม่นยำ
+
+- การจัดการวิชาเก่า (Archiving): ควรมีหมวดหมู่สำหรับวิชาที่สิ้นสุดการสอนแล้วแยกออกมา เพื่อไม่ให้ปะปนกับวิชาที่กำลังเปิดสอนอยู่ในปัจจุบัน
