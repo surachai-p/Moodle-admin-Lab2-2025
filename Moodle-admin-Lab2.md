@@ -166,9 +166,10 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+
+<img width="770" height="485" alt="image" src="https://github.com/user-attachments/assets/f882f3a0-2335-43f7-acf5-3bece611ccbf" />
+
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +321,10 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+
+ <img width="1774" height="786" alt="image" src="https://github.com/user-attachments/assets/127d7fdb-32bd-4c84-b507-51747845f287" />
+
+
 
 ### 4: Bulk User Upload
 
@@ -374,17 +376,18 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1526" height="736" alt="image" src="https://github.com/user-attachments/assets/9d9307f1-943f-4ae3-ba73-b685fc619236" />
+
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1634" height="702" alt="image" src="https://github.com/user-attachments/assets/f6bb0c6f-a003-499a-b28d-b796c4be438f" />
+
 ---
 
 ## 3. Upload Courses 
@@ -422,9 +425,8 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+<img width="1635" height="735" alt="image" src="https://github.com/user-attachments/assets/260e8a9d-cb5b-4ffb-ba76-cce4aea1cfc3" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -459,9 +461,8 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1456" height="601" alt="image" src="https://github.com/user-attachments/assets/2eb4e3d6-f5b7-4619-9887-b8e6e0296a73" />
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -470,14 +471,12 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+<img width="1514" height="811" alt="image" src="https://github.com/user-attachments/assets/9f1a33e4-9568-4b3e-9ad2-a4c05f48938f" />
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
-```
+<img width="1378" height="569" alt="image" src="https://github.com/user-attachments/assets/33e2b89c-2a6c-4eb0-8dc9-9f8f0650cd6f" />
+
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -507,16 +506,18 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+<img width="1379" height="670" alt="image" src="https://github.com/user-attachments/assets/98e41a34-8b86-465b-9a07-72c60336135f" />
+
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+Category และ Cohort เป็นแนวคิดที่ใช้ในการจัดกลุ่มข้อมูลผู้ใช้ แต่มีวัตถุประสงค์แตกต่างกัน โดย Category เป็นการจัดกลุ่มตามลักษณะหรือคุณสมบัติของข้อมูล เช่น เพศ อายุ หรือประเภทสมาชิก ซึ่งช่วยให้เห็นภาพรวมของข้อมูลเชิงโครงสร้าง ในขณะที่ Cohort เป็นการจัดกลุ่มผู้ใช้ที่มีพฤติกรรมหรือเหตุการณ์ร่วมกันในช่วงเวลาเดียวกัน เช่น ผู้ใช้ที่สมัครในเดือนเดียวกัน ทำให้สามารถวิเคราะห์การเปลี่ยนแปลงของพฤติกรรมผู้ใช้ตามช่วงเวลาได้อย่างชัดเจน
 
-**2.** เหตุใดควรใช้ Cohort sync 
+**2.** เหตุใดควรใช้ Cohort sync
+การใช้ Cohort sync มีความสำคัญเนื่องจากช่วยให้ข้อมูลของกลุ่มผู้ใช้มีความถูกต้องและเป็นปัจจุบันอยู่เสมอ ระบบสามารถอัปเดตกลุ่มอัตโนมัติตามเงื่อนไขที่กำหนดไว้ ส่งผลให้การวิเคราะห์ข้อมูลและการวางแผนทางการตลาดมีความแม่นยำมากขึ้น
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
+การออกแบบ Category structure ที่ดี ควรมีโครงสร้างที่ชัดเจน ไม่ซับซ้อน ตั้งชื่อให้เข้าใจง่าย และกำหนดให้แต่ละ Category แสดงถึงข้อมูลเพียงหนึ่งมิติ ทั้งนี้ Category ควรสอดคล้องกับเป้าหมายการใช้งานเพื่อให้สามารถนำข้อมูลไปใช้ได้อย่างมีประสิทธิภาพ
 
