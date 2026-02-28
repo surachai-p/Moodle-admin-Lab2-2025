@@ -166,9 +166,9 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+
+<img width="1911" height="930" alt="image" src="https://github.com/user-attachments/assets/2655a5a7-faa5-4267-9482-6341f976665b" />
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +320,9 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+
+<img width="1893" height="907" alt="image" src="https://github.com/user-attachments/assets/22ca24ff-062e-463e-9e4e-da20b0a50592" />
+
 
 ### 4: Bulk User Upload
 
@@ -373,18 +373,18 @@ Default values
 4. Upload type: Add new only
 5. Force password change: Yes
 
-**บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+**บันทึกรูปหน้า Users (Student):**
+
+<img width="1843" height="867" alt="image" src="https://github.com/user-attachments/assets/dc959559-5f11-40e4-8447-4b4443138900" />
+
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+<img width="1894" height="899" alt="image" src="https://github.com/user-attachments/assets/15f65619-fee5-4674-b05d-0032fb8e9e9b" />
+
 ---
 
 ## 3. Upload Courses 
@@ -422,9 +422,9 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 **เลือกไฟล์รายวิชา แล้วทำการ Upload**
 
 **บันทึกรูปหน้า Course :** 
-```
- # บันทึกรูปหน้า Course
-```
+
+<img width="1876" height="840" alt="image" src="https://github.com/user-attachments/assets/b29043c3-84d5-4c1f-9dbe-ca8288f19765" />
+
 
 #### 5. ตรวจสอบผลลัพธ์
 
@@ -459,9 +459,9 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+
+<img width="1911" height="913" alt="image" src="https://github.com/user-attachments/assets/a6a984b6-b9dc-414a-b84f-6a66e3bc351f" />
+
 
 **Enroll นักเรียนผ่าน Cohort sync:**
 - หน้า Participants > Enrolment methods  (จากเดิมจะเลือกเมนูเป็น Enrolled users ไว้)
@@ -470,14 +470,14 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 - Role: Student
 
 **บันทึกรูปหน้า Enroll นักเรียน:** 
-```
- # บันทึกรูปหน้า Enroll
-```
+
+<img width="1914" height="906" alt="image" src="https://github.com/user-attachments/assets/b3263b80-7c6e-4b0c-8850-13858c7cc714" />
+
 
 **บันทึกรูปหน้า Course ที่ Enrol User แล้ว :** 
-```
- # บันทึกรูปหน้า Course ที่ Enrol User แล้ว
-```
+
+<img width="1893" height="896" alt="image" src="https://github.com/user-attachments/assets/3b33553f-12e4-470d-9f04-f519688dd51c" />
+
 
 #### 6.2 เพิ่ม Activities
 1) ทดสอบ Login เข้าระบบด้วย User Teacher ที่ได้สร้างขึ้น
@@ -507,16 +507,48 @@ Grade to pass: 60%
 ```
 
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
-```
- # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+
+<img width="1909" height="916" alt="image" src="https://github.com/user-attachments/assets/2496ec3b-b00b-4e8f-af83-05fb2b2cca3c" />
+
+
 
 
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+Category คือ โครงสร้างที่ใช้จัดหมวดหมู่รายวิชา (Course) ภายในระบบ เพื่อให้จัดการรายวิชาเป็นระบบและค้นหาได้ง่าย เช่น แบ่งตามระดับชั้น ม.1 ม.2 หรือแบ่งตามประเภทหลักสูตร เช่น มัธยมศึกษา อาชีวศึกษา
+
+Cohort คือ กลุ่มของผู้ใช้งาน (User) ที่ถูกจัดรวมกันตามคุณลักษณะเดียวกัน เช่น นักเรียน ม.1/1 ครูกลุ่มสาระภาษาไทย หรือผู้บริหาร โดย Cohort ใช้สำหรับจัดการสิทธิ์และการลงทะเบียนเรียนแบบกลุ่ม
+
+Category = จัดกลุ่มรายวิชา
+Cohort = จัดกลุ่มผู้ใช้งาน
 
 **2.** เหตุใดควรใช้ Cohort sync 
+Cohort Sync คือการเชื่อม Cohort เข้ากับรายวิชา เพื่อให้สมาชิกใน Cohort ถูกลงทะเบียนเข้าเรียนอัตโนมัติ
+
+เหตุผลที่ควรใช้ Cohort Sync
+
+- ลดภาระงานของผู้ดูแลระบบ ไม่ต้องเพิ่มผู้เรียนทีละคน
+
+- ลดความผิดพลาดในการลงทะเบียน
+
+- เหมาะกับองค์กรที่มีผู้เรียนจำนวนมาก
+
+- เมื่อเพิ่มหรือเอาผู้ใช้ออกจาก Cohort ระบบจะอัปเดตการลงทะเบียนให้อัตโนมัติ
+
+ดังนั้น Cohort Sync ช่วยให้การจัดการผู้เรียนมีประสิทธิภาพและประหยัดเวลา
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
+แนวทางที่เหมาะสมในการจัดโครงสร้าง Category คือ
 
+1. จัดตามระดับการศึกษา เช่น มัธยมศึกษา → ม.1 → ม.2 → ม.3
+
+2. แยกตามประเภทหลักสูตร เช่น มัธยมศึกษา และ อาชีวศึกษา
+
+3. ไม่สร้างโครงสร้างซ้อนลึกเกินไป (ไม่ควรเกิน 3 ระดับ)
+
+4. ตั้งชื่อให้ชัดเจนและเป็นมาตรฐานเดียวกัน
+
+5. แยกพื้นที่ทดลอง (Sandbox) ออกจากระบบใช้งานจริง
+
+โครงสร้างที่ดีจะช่วยให้ระบบเป็นระเบียบ ค้นหาง่าย และขยายในอนาคตได้สะดวก
