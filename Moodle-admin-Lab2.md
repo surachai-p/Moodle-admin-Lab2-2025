@@ -170,6 +170,9 @@ Site administration > Courses > Manage courses and categories
  # บันทึกรูปหน้า Category
 
 
+ # บันทึกรูปหน้า Category
+ ![alt text](image.png)
+
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
