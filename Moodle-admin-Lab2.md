@@ -166,9 +166,8 @@ Site administration > Courses > Manage courses and categories
 ```
 
 **บันทึกรูปหน้า Category:** 
-```
- # บันทึกรูปหน้า Category
-```
+
+![alt text](image.png)
 
 ### 3: สร้างและจัดการ Cohorts 
 **3.1 สร้างไฟล์ `cohorts.csv`:** ที่มีรายละเอียดด้านล่าง (สำหรับระดับมัธยมศึกษา) โดยเลือกเข้ารหัสเป็น UTF-8
@@ -320,9 +319,8 @@ CSV settings:
 - เลือก Encoding: UTF-8
 
 **บันทึกรูปหน้า Cohorts ที่สร้างแล้ว:** 
-```
- # บันทึกรูปหน้า Cohorts
-```
+
+![alt text](image-1.png)
 
 ### 4: Bulk User Upload
 
@@ -374,18 +372,15 @@ Default values
 5. Force password change: Yes
 
 **บันทึกรูปหน้า Users (Student):** 
-```
- # บันทึกรูปหน้า Users
-```
+
+![alt text](image-2.png)
 
 **Upload Users (Teacher):**
 ทำการ Upload Users ที่เป็น Teaher โดยใช้ไฟล์ teachers_sample.csv
 
 **บันทึกรูปหน้า Users (Teacher):** 
-```
- # บันทึกรูปหน้า Users
-```
----
+
+![alt text](image-3.png)
 
 ## 3. Upload Courses 
 
@@ -515,8 +510,10 @@ Grade to pass: 60%
 ## คำถามท้ายการทดลอง
 
 **1.** อธิบายความแตกต่างระหว่าง Category และ Cohort 
+  Category ช่วยจัดระเบียบ "สิ่งที่เรียน" (courses) ในขณะที่ Cohort ช่วยจัดระเบียบ "ผู้เรียน" (users) เพื่อให้การบริหารจัดการระบบมีประสิทธิภาพสูงสุด
 
 **2.** เหตุใดควรใช้ Cohort sync 
+  Cohort sync ช่วยให้การบริหารจัดการ enrollment มีประสิทธิภาพสูงสุด โดยเฉพาะในระบบการศึกษาที่มีผู้ใช้จำนวนมากและโครงสร้างกลุ่มที่ชัดเจน
 
 **3.** Best practices สำหรับ Category structure คือแบบใด
-
+   โครงสร้าง Category ควรเป็นแบบลำดับชั้นที่สอดคล้องกัน ไม่ลึกเกินไป และใช้ ID ที่เป็นระบบ เพื่อให้เหมาะกับการจัดการรายวิชาในสถานศึกษา
